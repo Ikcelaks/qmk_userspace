@@ -36,8 +36,11 @@
 #define triple_magic_switch(trigger, body) \
     magic_switch_core(trigger, body, -2)
 
+#define quadruple_magic_switch(trigger, body) \
+    magic_switch_core(trigger, body, -3)
+
 #define quintuple_magic_switch(trigger, body) \
-    magic_switch_core(trigger, body, -5)
+    magic_switch_core(trigger, body, -4)
 
 #define double_magic_case(trigger, p_key, supplement) \
     magic_case_core(trigger, single_queue_check(p_key), supplement)

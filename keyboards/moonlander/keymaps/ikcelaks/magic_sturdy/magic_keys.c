@@ -1,5 +1,6 @@
 
 #include "../__init__.h"
+#include "keycodes.h"
 #include "magic_sturdy/__init__.h"
 #include "magic_sturdy/general.h"
 #include "modifiers.h"
@@ -18,7 +19,10 @@ void process_magic_key_1(void) {
     }
 
     switch (queue(-5)) {
-        quintuple_magic_case(KC_B, KC_A, KC_L, KC_L, KC_I, "st");
+        quintuple_magic_switch(KC_B,
+            quadruple_magic_case(KC_A, KC_L, KC_L, KC_I, "st");
+            quadruple_magic_case(KC_L, KC_I, KC_V, KC_I, "on");
+        );
     }
 
     switch (queue(-4)) {
@@ -101,14 +105,10 @@ void process_magic_key_1(void) {
             magic_case(KC_R, "evious");
         );
 
-        double_magic_case(KC_I, KC_C, "k");
-        double_magic_case(KC_C, KC_Y, "c");
-        double_magic_case(KC_A, KC_C, "k");
-        double_magic_case(KC_E, KC_C, "k");
         double_magic_case(KC_D, KC_A, "y");
         double_magic_case(KC_B, KC_E, "en");
-        double_magic_case(KC_S, KC_O, "me");
         double_magic_case(KC_L, KC_I, "st");
+        double_magic_case(KC_V, KC_I, "sion");
     }
 
     switch (queue(-1)) {
@@ -152,6 +152,7 @@ void process_magic_key_1(void) {
         magic_case(KC_COMM, get_last_mods() & MOD_MASK_SHIFT ? "=" : " but");
         magic_case(KC_I,   "on");
         magic_case(KC_DOT, get_last_mods() & MOD_MASK_SHIFT ? "=" : "\\");
+        magic_case(KC_MINS, ">");
     }
 }
 
@@ -187,9 +188,7 @@ void process_magic_key_2(void) {
         magic_case(KC_W,   "ould");
         magic_case(KC_C,   "k");
         magic_case(KC_N,   "f");
-        case KC_COMMA:
-            record_send_string(" and");
-            return;
+        magic_case(KC_COMMA, " and");
         case KC_DOT:
         case KC_QUES:
         case KC_EXLM:

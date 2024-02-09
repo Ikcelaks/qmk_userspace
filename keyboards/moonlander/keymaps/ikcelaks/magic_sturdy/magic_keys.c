@@ -1,5 +1,9 @@
 
 #include "../__init__.h"
+#include "magic_sturdy/__init__.h"
+#include "magic_sturdy/general.h"
+#include "modifiers.h"
+#include "repeat_key.h"
 
 void process_magic_key_1(void) {
     if (mag1_key_count >= 2) {
@@ -19,6 +23,7 @@ void process_magic_key_1(void) {
 
     switch (queue(-4)) {
         quadruple_magic_case(KC_A, KC_B, KC_E, KC_T, "ment");
+        quadruple_magic_case(KC_V, KC_I, KC_L, KC_I, "on");
     }
 
     switch (queue(-3)) {
@@ -144,9 +149,9 @@ void process_magic_key_1(void) {
         magic_case(KC_A,   "b");
         // KC_QUES
 
-        magic_case(KC_COMM, " but");
+        magic_case(KC_COMM, get_last_mods() & MOD_MASK_SHIFT ? "=" : " but");
         magic_case(KC_I,   "on");
-        magic_case(KC_DOT, "\\");
+        magic_case(KC_DOT, get_last_mods() & MOD_MASK_SHIFT ? "=" : "\\");
     }
 }
 

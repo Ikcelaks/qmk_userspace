@@ -106,6 +106,7 @@ void process_magic_key_1(void) {
         );
 
         double_magic_case(KC_D, KC_A, "y");
+        double_magic_case(KC_W, KC_A, "y");
         double_magic_case(KC_B, KC_E, "en");
         double_magic_case(KC_L, KC_I, "st");
         double_magic_case(KC_V, KC_I, "sion");
@@ -175,6 +176,7 @@ void process_magic_key_2(void) {
         );
 
         double_magic_case(KC_F, KC_R, "om");
+        double_magic_case(KC_O, KC_U, "ght");
     }
 
     switch (queue(-1)) {

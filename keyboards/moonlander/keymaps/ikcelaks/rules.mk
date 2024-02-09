@@ -5,3 +5,7 @@ COMMAND_ENABLE = no
 SPACE_CADET_ENABLE = no
 COMBO_ENABLE = yes
 REPEAT_KEY_ENABLE = yes
+DEFERRED_EXEC_ENABLE = yes
+
+SRC += magic_sturdy/general.c
+SRC += magic_sturdy/magic_keys.c

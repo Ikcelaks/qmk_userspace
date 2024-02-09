@@ -64,7 +64,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[SYMB] = LAYOUT_moonlander(
         _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, _______, _______, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11,
         _______, KC_HASH, KC_AMPR, KC_LCBR, KC_RCBR, KC_PIPE, _______, _______, KC_INS, KC_7, KC_8, KC_9, KC_PMNS, KC_F12,
-        _______, KC_AT, KC_EXLM, KC_LPRN, KC_RPRN, KC_TILD, _______, MK_DUND, KC_PPLS, KC_4, KC_5, KC_6, KC_PAST, _______,
+        _______, KC_AT, KC_EXLM, KC_LPRN, KC_RPRN, KC_TILD, _______, US_D_UND, KC_PPLS, KC_4, KC_5, KC_6, KC_PAST, _______,
         _______, KC_PERC, KC_CIRC, KC_LBRC, KC_RBRC, KC_GRV, KC_PSLS, KC_1, KC_2, KC_3, KC_PEQL, _______,
         _______, _______, _______, _______, _______, _______, _______, KC_0, KC_PCMM, KC_PDOT, KC_PENT, _______,
         _______, _______, _______, _______, _______, _______
@@ -102,11 +102,11 @@ combo_t key_combos[COMBO_COUNT] = {
     COMBO(combo_LB_IM, KC_COLN),
     COMBO(combo_LB_MR, US_MAG3),
     COMBO(combo_LB_RP, US_MAG4),
-    COMBO(combo_LB_IR, MG_QUOT_S),
+    COMBO(combo_LB_IR, US_QUOT_S),
     COMBO(combo_RB_IM, KC_SCLN),
     COMBO(combo_RB_MR, US_MAG3),
     COMBO(combo_RB_RP, US_MAG4),
-    COMBO(combo_RB_IR, MG_QUOT_S),
+    COMBO(combo_RB_IR, US_QUOT_S),
 };
 
 extern rgb_config_t rgb_matrix_config;
@@ -123,8 +123,11 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
     if (record->event.pressed) {
         switch (keycode) {
-            case MK_DUND:
+            case US_D_UND:
                 SEND_STRING(SS_LSFT(SS_TAP(X_4)) SS_DELAY(100) SS_LSFT(SS_TAP(X_MINUS)));
+                return false;
+            case US_QUOT_S:
+                SEND_STRING("'s");
                 return false;
         }
     }

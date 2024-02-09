@@ -6,8 +6,6 @@ enum custom_keycodes {
     US_MAG2,
     US_MAG3,
     US_MAG4,
-    // C_MAG_2,
-    // C_MAG_3,
-    MK_DUND,
-    MG_QUOT_S,
+    US_D_UND,
+    US_QUOT_S,
 };

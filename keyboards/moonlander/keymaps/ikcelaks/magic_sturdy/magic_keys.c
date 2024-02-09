@@ -1,10 +1,5 @@
 
 #include "../__init__.h"
-#include "keycodes.h"
-#include "magic_sturdy/__init__.h"
-#include "magic_sturdy/general.h"
-#include "modifiers.h"
-#include "repeat_key.h"
 
 void process_magic_key_1(void) {
     if (mag1_key_count >= 2) {

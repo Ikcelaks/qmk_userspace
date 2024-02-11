@@ -1,4 +1,5 @@
 
+#include "magic_sturdy/general.h"
 #include "../__init__.h"
 
 int mag1_key_count = 0;
@@ -25,7 +26,8 @@ void refresh_token(void) {
 
 void record_send_string(const char *str) {
     for (int i = 0; str[i] != '\0'; i++) {
-        if (65 <= str[i] && str[i] <= 90) enqueue(str[i] - 61);
+        if (str[i] == 11) dequeue();
+        else if (65 <= str[i] && str[i] <= 90) enqueue(str[i] - 61);
         else if (97 <= str[i] && str[i] <= 122) enqueue(str[i] - 93);
     }
 

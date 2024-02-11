@@ -6,6 +6,9 @@
 
 void process_magic_key_1(void) {
     if (mag1_key_count >= 2) {
+        switch (queue(-5)) {
+            quintuple_magic_case(KC_J, KC_U, KC_D, KC_G, KC_E, "\bment");
+        }
         switch (queue(-4)) {
             quadruple_magic_case(KC_SPC, KC_A, KC_L, KC_R, "eady");
             quadruple_magic_switch(KC_J,
@@ -57,7 +60,7 @@ void process_magic_key_1(void) {
                 magic_case(KC_L, "ieve");
             );
 
-            double_magic_case(KC_U, KC_D, "g");
+            double_magic_case(KC_U, KC_D, "ge");
         );
 
         triple_magic_switch(KC_V,
@@ -95,7 +98,7 @@ void process_magic_key_1(void) {
             double_magic_case(KC_N, KC_Y, "way");
         );
 
-        triple_magic_case(KC_J, KC_U, KC_D, "g");
+        triple_magic_case(KC_J, KC_U, KC_D, "ge");
         triple_magic_case(KC_O, KC_B, KC_V, "ious");
         triple_magic_case(KC_H, KC_I, KC_L, "arious");
     }
@@ -193,6 +196,8 @@ void process_magic_key_2(void) {
             double_magic_case(KC_B, KC_O, "ut");
             double_magic_case(KC_N, KC_Y, "where");
         );
+
+        triple_magic_case(KC_R, KC_S, KC_C, "hool");
     }
 
     switch (queue(-2)) {
@@ -280,7 +285,7 @@ void process_magic_key_3(void) {
         magic_case(KC_U, "pgrade");
         magic_case(KC_O, "ther");
         magic_case(KC_A, "fter");
-        magic_case(KC_P, "sych");
+        magic_case(KC_P, "ower");
         magic_case(KC_I, "'ll");
         magic_case(KC_K, "now");
         magic_case(KC_T, "hough");
@@ -288,7 +293,7 @@ void process_magic_key_3(void) {
         magic_case(KC_M, "ight");
         magic_case(KC_R, "ight");
         magic_case(KC_J, "udge");
-        magic_case(KC_C, "hord");
+        magic_case(KC_C, "onsider");
         magic_case(KC_D, "evelop");
         magic_case(KC_G, "overn");
         magic_case(KC_W, "here");
@@ -302,17 +307,17 @@ void process_magic_key_3(void) {
 void process_magic_key_4(void) {
     switch (queue(-1)) {
         magic_case(KC_B, "etween");
-        magic_case(KC_N, "umber");
-        magic_case(KC_U, "pdate");
-        magic_case(KC_O, "ught");
+        magic_case(KC_N, "ation");
+        magic_case(KC_U, "nivers");
+        magic_case(KC_O, "ption");
         magic_case(KC_A, "gainst");
         magic_case(KC_P, "rogram");
         magic_case(KC_I, "'m");
-        magic_case(KC_T, "hrough");
+        magic_case(KC_T, "echnology");
         magic_case(KC_M, "anage");
         magic_case(KC_C, "rowd");
         magic_case(KC_W, "orld");
-        magic_case(KC_S, "chool");
+        magic_case(KC_S, "ervice");
         magic_case(KC_E, "'re");
         magic_case(KC_DOT, "com");
         magic_case(KC_COMM, " since");

@@ -1,5 +1,7 @@
 
 #include "../__init__.h"
+#include "keycodes.h"
+#include "keymap_us.h"
 #include "magic_sturdy/__init__.h"
 
 void process_magic_key_1(void) {
@@ -169,12 +171,24 @@ void process_magic_key_1(void) {
 
 void process_magic_key_2(void) {
     switch (queue(-4)) {
-            quadruple_magic_case(KC_SPC, KC_A, KC_L, KC_R, "ight");
+        quadruple_magic_switch(KC_SPC,
+            triple_magic_case(KC_A, KC_L, KC_R, "ight");
+            triple_magic_case(KC_R, KC_E, KC_V, "iew");
+            triple_magic_switch(KC_U,
+                double_magic_switch(KC_N,
+                    magic_case(KC_F, "ollow");
+                    magic_case(KC_P, "roblem");
+                );
+            );
+        );
     }
     switch (queue(-3)) {
         triple_magic_switch(KC_SPC,
             double_magic_case(KC_O, KC_X, "ygen");
+            double_magic_case(KC_S, KC_C, "hool");
+            double_magic_case(KC_P, KC_S, "ych");
         );
+
         triple_magic_switch(KC_A,
             double_magic_case(KC_B, KC_O, "ut");
             double_magic_case(KC_N, KC_Y, "where");
@@ -183,8 +197,45 @@ void process_magic_key_2(void) {
 
     switch (queue(-2)) {
         double_magic_switch(KC_SPC,
-            magic_case(KC_I, "ncrease");
+            magic_case(KC_V, "iew");
+            magic_case(KC_S, "hould");
+            // KC_X, "er"
+
+            magic_case(KC_M, "ake");
+            magic_case(KC_T, "hrough");
+            // KC_K, "now"
+
+            magic_case(KC_L, "ight");
+            magic_case(KC_R, "ight");
+            // KC_J, "oin"
+
+            magic_case(KC_C, "ould");
+            magic_case(KC_D, "on't");
+            magic_case(KC_G, "eneral");
+
+            magic_case(KC_P, "roblem");
+            // KC_Y, "ou"
+            // KC_W, "ould"
+
             magic_case(KC_B, "ecause");
+            magic_case(KC_F, "ollow");
+            magic_case(KC_Z, "ero");
+
+            // KC_MAG1
+            magic_case(KC_N, "umber");
+            magic_case(KC_H, "owever");
+
+            magic_case(KC_U, "pdate");
+            magic_case(KC_E, "nough");
+            // KC_QUOT
+
+            magic_case(KC_O, "ften");
+            // KC_A, "nd"
+            // KC_QUES, " " OSS
+
+            // KC_COMM, " and"
+            magic_case(KC_I, "ncrease");
+            // KC_DOT, " " OSS
         );
 
         double_magic_case(KC_F, KC_R, "om");
@@ -196,6 +247,7 @@ void process_magic_key_2(void) {
         magic_case(KC_SPC, "for");
         magic_case(KC_A,   "nd");
         magic_case(KC_X,   "er");
+        magic_case(KC_K,   "now");
         magic_case(KC_I,   "ng");
         magic_case(KC_Y,   "ou");
         magic_case(KC_Q,   "ui");
@@ -203,6 +255,7 @@ void process_magic_key_2(void) {
         magic_case(KC_W,   "ould");
         magic_case(KC_C,   "k");
         magic_case(KC_N,   "f");
+        magic_case(KC_H,   "n");
         magic_case(KC_COMMA, " and");
         case KC_DOT:
         case KC_QUES:
@@ -235,9 +288,9 @@ void process_magic_key_3(void) {
         magic_case(KC_M, "ight");
         magic_case(KC_R, "ight");
         magic_case(KC_J, "udge");
-        magic_case(KC_C, "ould");
+        magic_case(KC_C, "hord");
         magic_case(KC_D, "evelop");
-        magic_case(KC_G, "eneral");
+        magic_case(KC_G, "overn");
         magic_case(KC_W, "here");
         magic_case(KC_S, "hould");
         magic_case(KC_DOT, "org");
@@ -258,7 +311,6 @@ void process_magic_key_4(void) {
         magic_case(KC_T, "hrough");
         magic_case(KC_M, "anage");
         magic_case(KC_C, "rowd");
-        magic_case(KC_G, "overn");
         magic_case(KC_W, "orld");
         magic_case(KC_S, "chool");
         magic_case(KC_E, "'re");

@@ -67,10 +67,12 @@ uint16_t normalize_keycode(uint16_t keycode) {
 bool remember_last_key_user(uint16_t keycode, keyrecord_t* record, uint8_t* mods) {
     keycode = normalize_keycode(keycode);
 
-    // switch (keycode) {
-    //         dequeue();
-    //         return false;
-    // }
+    switch (keycode) {
+        case KC_BSPC:
+        case KC_LEFT:
+            dequeue();
+            return false;
+    }
 
     if (
         (*mods & MOD_MASK_CTRL) &&

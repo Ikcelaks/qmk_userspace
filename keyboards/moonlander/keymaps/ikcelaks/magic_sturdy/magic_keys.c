@@ -1,14 +1,21 @@
 
 #include "../__init__.h"
+#include "magic_sturdy/__init__.h"
 
 void process_magic_key_1(void) {
     if (mag1_key_count >= 2) {
         switch (queue(-4)) {
             quadruple_magic_case(KC_SPC, KC_A, KC_L, KC_R, "eady");
-            quadruple_magic_case(KC_J,   KC_U, KC_D, KC_G, "ment");
+            quadruple_magic_switch(KC_J,
+                triple_magic_switch(KC_U,
+                    double_magic_case(KC_D, KC_G, "ment");
+                    double_magic_case(KC_S, KC_T, "ment");
+                );
+            );
         }
 
         switch (queue(-3)) {
+            triple_magic_case(KC_A, KC_B, KC_O, "ve");
             default: record_send_string("n"); return;
         }
     }
@@ -48,7 +55,7 @@ void process_magic_key_1(void) {
                 magic_case(KC_L, "ieve");
             );
 
-            double_magic_case(KC_U, KC_D, "ge");
+            double_magic_case(KC_U, KC_D, "g");
         );
 
         triple_magic_switch(KC_V,
@@ -82,6 +89,10 @@ void process_magic_key_1(void) {
             double_magic_case(KC_L, KC_I, "on");
         );
 
+        triple_magic_switch(KC_A,
+            double_magic_case(KC_N, KC_Y, "way");
+        );
+
         triple_magic_case(KC_J, KC_U, KC_D, "g");
         triple_magic_case(KC_O, KC_B, KC_V, "ious");
         triple_magic_case(KC_H, KC_I, KC_L, "arious");
@@ -100,7 +111,11 @@ void process_magic_key_1(void) {
             magic_case(KC_R, "evious");
         );
 
-        double_magic_case(KC_D, KC_A, "y");
+        double_magic_switch(KC_D,
+            magic_case(KC_A, "y");
+            magic_case(KC_R, "y");
+        );
+
         double_magic_case(KC_W, KC_A, "y");
         double_magic_case(KC_B, KC_E, "en");
         double_magic_case(KC_L, KC_I, "st");
@@ -142,7 +157,7 @@ void process_magic_key_1(void) {
         // KC_QUOT
 
         magic_case(KC_O,   "a");
-        magic_case(KC_A,   "b");
+        magic_case(KC_A,   "bo");
         // KC_QUES
 
         magic_case(KC_COMM, get_last_mods() & MOD_MASK_SHIFT ? "=" : " but");
@@ -153,15 +168,17 @@ void process_magic_key_1(void) {
 }
 
 void process_magic_key_2(void) {
+    switch (queue(-4)) {
+            quadruple_magic_case(KC_SPC, KC_A, KC_L, KC_R, "ight");
+    }
     switch (queue(-3)) {
         triple_magic_switch(KC_SPC,
-            double_magic_case(KC_A, KC_B, "out");
             double_magic_case(KC_O, KC_X, "ygen");
         );
-
-        triple_magic_case(KC_A,   KC_N, KC_Y, "way");
-        // triple_magic_case(KC_C,   KC_A, KC_P, "able");
-        // triple_magic_case(KC_U,   KC_N, KC_I, "versity");
+        triple_magic_switch(KC_A,
+            double_magic_case(KC_B, KC_O, "ut");
+            double_magic_case(KC_N, KC_Y, "where");
+        );
     }
 
     switch (queue(-2)) {
@@ -171,6 +188,7 @@ void process_magic_key_2(void) {
         );
 
         double_magic_case(KC_F, KC_R, "om");
+        double_magic_case(KC_A, KC_U, "ght");
         double_magic_case(KC_O, KC_U, "ght");
     }
 
@@ -208,7 +226,7 @@ void process_magic_key_3(void) {
         magic_case(KC_H, "owever");
         magic_case(KC_U, "pgrade");
         magic_case(KC_O, "ther");
-        magic_case(KC_A, "lready");
+        magic_case(KC_A, "fter");
         magic_case(KC_P, "sych");
         magic_case(KC_I, "'ll");
         magic_case(KC_K, "now");
@@ -234,7 +252,7 @@ void process_magic_key_4(void) {
         magic_case(KC_N, "umber");
         magic_case(KC_U, "pdate");
         magic_case(KC_O, "ught");
-        magic_case(KC_A, "bout");
+        magic_case(KC_A, "gainst");
         magic_case(KC_P, "rogram");
         magic_case(KC_I, "'m");
         magic_case(KC_T, "hrough");

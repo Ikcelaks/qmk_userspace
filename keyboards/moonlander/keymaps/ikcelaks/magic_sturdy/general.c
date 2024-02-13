@@ -26,7 +26,7 @@ void refresh_token(void) {
 
 void record_send_string(const char *str) {
     for (int i = 0; str[i] != '\0'; i++) {
-        if (str[i] == 11) dequeue();
+        if (str[i] == 8) dequeue(); // dequeue when sending backspace
         else if (65 <= str[i] && str[i] <= 90) enqueue(str[i] - 61);
         else if (97 <= str[i] && str[i] <= 122) enqueue(str[i] - 93);
     }

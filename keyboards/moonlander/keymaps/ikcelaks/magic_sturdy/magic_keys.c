@@ -3,6 +3,7 @@
 #include "keycodes.h"
 #include "keymap_us.h"
 #include "magic_sturdy/__init__.h"
+#include "magic_sturdy/general.h"
 
 void process_magic_key_1(void) {
     if (mag1_key_count >= 2) {
@@ -49,8 +50,14 @@ void process_magic_key_1(void) {
                 magic_case(KC_X, "ample");
             );
 
+            double_magic_switch(KC_T,
+                magic_case(KC_A, "ke");
+                magic_case(KC_I, "me");
+            );
+
+            double_magic_case(KC_M, KC_A, "ke");
+
             double_magic_case(KC_U, KC_S, "e");
-            double_magic_case(KC_T, KC_I, "me");
             double_magic_case(KC_I, KC_N, "form");
         );
 
@@ -125,6 +132,8 @@ void process_magic_key_1(void) {
         double_magic_case(KC_B, KC_E, "en");
         double_magic_case(KC_L, KC_I, "st");
         double_magic_case(KC_V, KC_I, "sion");
+        double_magic_case(KC_A, KC_B, "ility");
+        double_magic_case(KC_I, KC_B, "ility");
     }
 
     switch (queue(-1)) {
@@ -173,6 +182,13 @@ void process_magic_key_1(void) {
 }
 
 void process_magic_key_2(void) {
+    switch (queue(-5)) {
+        quintuple_magic_switch(KC_SPC,
+            quadruple_magic_case(KC_M, KC_A, KC_K, KC_E, "\bing");
+            quadruple_magic_case(KC_T, KC_A, KC_K, KC_E, "\bing");
+        );
+    }
+
     switch (queue(-4)) {
         quadruple_magic_switch(KC_SPC,
             triple_magic_case(KC_A, KC_L, KC_R, "ight");
@@ -198,6 +214,7 @@ void process_magic_key_2(void) {
         );
 
         triple_magic_case(KC_R, KC_S, KC_C, "hool");
+        triple_magic_case(KC_I, KC_T, KC_Y, "\bies");
     }
 
     switch (queue(-2)) {
@@ -206,7 +223,7 @@ void process_magic_key_2(void) {
             magic_case(KC_S, "hould");
             // KC_X, "er"
 
-            magic_case(KC_M, "ake");
+            magic_case(KC_M, "ight");
             magic_case(KC_T, "hrough");
             // KC_K, "now"
 
@@ -255,7 +272,7 @@ void process_magic_key_2(void) {
         magic_case(KC_K,   "now");
         magic_case(KC_I,   "ng");
         magic_case(KC_Y,   "ou");
-        magic_case(KC_Q,   "ui");
+        magic_case(KC_Q,   "uick");
         magic_case(KC_J,   "oin");
         magic_case(KC_W,   "ould");
         magic_case(KC_C,   "k");
@@ -278,28 +295,46 @@ void process_magic_key_2(void) {
 
 void process_magic_key_3(void) {
     switch (queue(-1)) {
-        magic_case(KC_B, "ecome");
-        magic_case(KC_F, "ollow");
-        magic_case(KC_N, "eighbor");
-        magic_case(KC_H, "owever");
-        magic_case(KC_U, "pgrade");
-        magic_case(KC_O, "ther");
-        magic_case(KC_A, "fter");
-        magic_case(KC_P, "ower");
-        magic_case(KC_I, "'ll");
-        magic_case(KC_K, "now");
+        magic_case(KC_V, "isit");
+        magic_case(KC_S, "mall");
+        // KC_X
+
+        magic_case(KC_M, "anage");
         magic_case(KC_T, "hough");
-        magic_case(KC_L, "ight");
-        magic_case(KC_M, "ight");
-        magic_case(KC_R, "ight");
+        magic_case(KC_K, "new");
+
+        magic_case(KC_L, "ocation");
+        magic_case(KC_R, "ecommend");
         magic_case(KC_J, "udge");
+
         magic_case(KC_C, "onsider");
         magic_case(KC_D, "evelop");
         magic_case(KC_G, "overn");
+
+        magic_case(KC_P, "ower");
+        // KC_Y
         magic_case(KC_W, "here");
-        magic_case(KC_S, "hould");
-        magic_case(KC_DOT, "org");
+        magic_case(KC_Q, "mlativ");
+
+        magic_case(KC_B, "ecome");
+        magic_case(KC_F, "ound");
+        // KC_Z
+
+        // KC_MAG1
+        magic_case(KC_N, "eighbor");
+        magic_case(KC_H, "appen");
+
+        magic_case(KC_U, "pgrade");
+        magic_case(KC_E, "'ll");
+        // KC_QUOT
+
+        magic_case(KC_O, "ther");
+        magic_case(KC_A, "fter");
+        // KC_QUES
+
         magic_case(KC_COMM, " however");
+        magic_case(KC_I, "'ll");
+        magic_case(KC_DOT, "org");
         default: return;
     }
 }
@@ -314,11 +349,11 @@ void process_magic_key_4(void) {
         magic_case(KC_P, "rogram");
         magic_case(KC_I, "'m");
         magic_case(KC_T, "echnology");
-        magic_case(KC_M, "anage");
         magic_case(KC_C, "rowd");
         magic_case(KC_W, "orld");
         magic_case(KC_S, "ervice");
         magic_case(KC_E, "'re");
+        magic_case(KC_Q, "uiet");
         magic_case(KC_DOT, "com");
         magic_case(KC_COMM, " since");
         default: return;

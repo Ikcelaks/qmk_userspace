@@ -1,0 +1,7 @@
+{
+    "rules_file_name": "./magickey_dict.txt",
+    "magic_chars": "☆✵★✪",
+    "wordbreak_char": ":",
+    "comment_char": "#",
+    "separator": "⇒"
+}

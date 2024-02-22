@@ -1,7 +1,8 @@
 {
     "rules_file_name": "./magickey_dict.txt",
-    "magic_chars": "☆✵★✪",
+    "magic_chars": "👆👍★✪",
     "wordbreak_char": ":",
+    "output_func_chars": "↻⇑",
     "comment_char": "#",
     "separator": "⇒"
 }

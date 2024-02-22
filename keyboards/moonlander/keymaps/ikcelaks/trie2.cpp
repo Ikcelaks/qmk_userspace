@@ -135,11 +135,45 @@ bool search_trie2(const trie2_t *trie, int offset, trie2_visitor_t *v)
 }
 
 //////////////////////////////////////////////////////////////////////////////////
-void print_cb2(trie2_visitor_t *v, int bspaces, int func, const char *completion)
+void print_traverse_cb2(trie2_visitor_t *v, int bspaces, int func, const char *completion)
+{
+	printf("  depth %d: ", v->stack.size);
+    printf(" -> %s (bspc: %d, func: %d)\n", completion, bspaces, func);
+
+	if (v->cb_data) {
+		int entries = *(int*)v->cb_data;
+		*(int*)v->cb_data = entries + 1;
+	}
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+void print_search_cb2(trie2_visitor_t *v, int bspaces, int func, const char *completion)
 {
 	printf("  depth %d: ", v->stack.size);
 	stack_print(&v->stack);
-	printf(" -> %s (bspc: %d, func: %d)\n", completion, bspaces, func);
+    search_buffer_t *search = (search_buffer_t*)v->cb_data;
+    char last_char;
+    int i;
+    switch (func) {
+        case 1: // repeat
+            i = search->size - 1;
+            last_char = search->data[i];
+            while ((last_char == '*' || last_char == '@') && i >= 0) {
+                last_char = search->data[--i];
+            }
+            search->data[search->size-1] = last_char;
+	        printf(" -> %s%c (bspc: %d, func: %d)\n", completion, last_char, bspaces, func);
+            printf("  new buffer: %s", search->data);
+            printf("\n");
+            break;
+        case 2: // one-shot-shift
+	        printf(" -> %s (bspc: %d, func: %d)\n", completion, bspaces, func);
+	        printf("  Activating One-Shot-Shift\n");
+            break;
+	    default:
+            printf(" -> %s (bspc: %d, func: %d)\n", completion, bspaces, func);
+    }
+
 	if (v->cb_data) {
 		int entries = *(int*)v->cb_data;
 		*(int*)v->cb_data = entries + 1;
@@ -153,7 +187,7 @@ void test_traverse2(trie2_t *trie)
 	trie2_visitor_t visitor;
 	visitor.stack.size = 0;
 	visitor.cb_data = (void*)&entries;
-	visitor.cb_func = print_cb2;
+	visitor.cb_func = print_traverse_cb2;
 	traverse_trie2(trie, 0, &visitor);
 	printf("Found %d entries.\n\n", entries);
 }
@@ -167,7 +201,7 @@ void test_search2(const trie2_t *trie, const char *buffer)
 	trie2_visitor_t visitor;
 	visitor.stack.size = 0;
 	visitor.cb_data = (void*)&search;
-	visitor.cb_func = print_cb2;
+	visitor.cb_func = print_search_cb2;
 	search_trie2(trie, 0, &visitor);
 }
 //////////////////////////////////////////////////////////////////////////////////
@@ -192,12 +226,11 @@ void test_trie2()
 	test_search2(&trie2, "cat*");
 	test_search2(&trie2, ":ex@");
 	test_search2(&trie2, "j*");
-	test_search2(&trie2, "i@");
-	test_search2(&trie2, "i@m");
-	test_search2(&trie2, "i@d");
-	test_search2(&trie2, "i@l");
-	test_search2(&trie2, "@");
-	test_search2(&trie2, "*");
+	test_search2(&trie2, ":i@");
+	test_search2(&trie2, ":i@m");
+	test_search2(&trie2, ":i@d");
+	test_search2(&trie2, ":i@l");
+	test_search2(&trie2, "o@");
 	test_search2(&trie2, ".@");
 }
 

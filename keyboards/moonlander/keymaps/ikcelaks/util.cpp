@@ -3,8 +3,7 @@
 
 #define QK_LSFT 0x0200
 #define pgm_read_byte(address_short) *((uint8_t*)(address_short))
-#define PROGMEM 
-#define KC_MAGIC_0 0x0100
+#define PROGMEM
 
 static const char magic_chars[] = { '*', '@' };
 
@@ -23,7 +22,7 @@ const char unshifted_keycode_to_ascii_lut[53] PROGMEM = {
     ' ',    ' ',    ' ',    ' ',    ' ',    '-',    '=',    '[',
 //  KC_RBRC KC_BSLS KC_NUHS KC_SCLN KC_QUOT KC_GRV  KC_COMM KC_DOT
     ']',    '\\',   ' ',    ';',    '\'',   '`',    ',',    '.',
-//  KC_SLSH 
+//  KC_SLSH
     '/'
 };
 const char shifted_keycode_to_ascii_lut[53] PROGMEM = {
@@ -41,7 +40,7 @@ const char shifted_keycode_to_ascii_lut[53] PROGMEM = {
     ' ',    ' ',    ' ',    ' ',    ' ',    '_',    '+',    '{',
 //  KC_RCBR KC_PIPE KC_NUHS KC_COLN KC_DQUO KC_GRV  KC_LABK KC_RABK
     '}',    '|',    ' ',    ':',    '"',    '~',    '<',    '>',
-//  KC_QUES 
+//  KC_QUES
     '?'
 };
 

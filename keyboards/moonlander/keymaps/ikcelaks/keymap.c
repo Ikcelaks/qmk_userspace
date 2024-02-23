@@ -109,17 +109,21 @@ combo_t key_combos[COMBO_COUNT] = {
     COMBO(combo_RB_IR, US_QUOT_S),
 };
 
-extern rgb_config_t rgb_matrix_config;
+// extern rgb_config_t rgb_matrix_config;
 
-void keyboard_post_init_user(void) {
-  rgb_matrix_enable();
-}
+// void keyboard_post_init_user(void) {
+//   rgb_matrix_enable();
+// }
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    bool return_value;
+    // bool return_value;
 
-    if (sturdy_pr(keycode, record, &return_value))
-        return return_value;
+    // if (sturdy_pr(keycode, record, &return_value))
+    //     return return_value;
+    uprintf("Process_record_user for keycode: %d", keycode);
+
+    if (!process_context_magic(keycode, record))
+        return false;
 
     if (record->event.pressed) {
         switch (keycode) {

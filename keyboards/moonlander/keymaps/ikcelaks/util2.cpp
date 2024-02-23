@@ -1,5 +1,5 @@
-#include "keycodes.h"
-#include "util.h"
+#include "keycodes-copy.h"
+#include "util2.h"
 
 #define QK_LSFT 0x0200
 #define pgm_read_byte(address_short) *((uint8_t*)(address_short))

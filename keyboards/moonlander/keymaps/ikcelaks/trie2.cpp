@@ -3,7 +3,7 @@
 #include <string.h>
 #include "trie2.h"
 #include "stack.h"
-#include "util.h"
+#include "util2.h"
 
 #define KEY_BUFFER_MAX_LENGTH MAGICKEY_MAX_LENGTH
 #define TDATA(i) trie->dict[i]
@@ -80,9 +80,9 @@ bool search_trie2(const trie2_t *trie, int offset, trie2_visitor_t *v)
 	search_buffer_t *search = (search_buffer_t*)v->cb_data;
 	uint16_t code = TDATA(offset);
 	assert(code);
-	// MATCH node if bit 16 is set
+	// MATCH node if bit 15 is set
 	if (code & 0x8000) {
-		// If bit 15 is also set, there's a child node after the completion string
+		// If bit 14 is also set, there's a child node after the completion string
 		if ((code & 0x4000) && search_trie2(trie, offset+2, v))
 			return true;
 		// If no better match found deeper, this is the result!
@@ -94,7 +94,7 @@ bool search_trie2(const trie2_t *trie, int offset, trie2_visitor_t *v)
 		// Found a match so return true!
 		return true;
 	}
-	// BRANCH node if bit 15 is set
+	// BRANCH node if bit 14 is set
 	if (code & 0x4000) {
 		if ((v->stack.size+1) > search->size)
 			return false;
@@ -104,7 +104,7 @@ bool search_trie2(const trie2_t *trie, int offset, trie2_visitor_t *v)
 		for (; code; offset += 2, code = TDATA(offset)) {
 			const char c = keycode_to_char(code);
 			if (cur_char == c) {
-				// Get 16bit offset to child node
+				// Get 15bit offset to child node
 				const int child_offset = TDATA(offset+1);
 				// Traverse down child node
 				stack_push(&v->stack, c);

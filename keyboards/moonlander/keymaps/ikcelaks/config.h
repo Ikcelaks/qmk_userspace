@@ -23,3 +23,5 @@
 // User Added
 #define COMBO_COUNT 10
 #define TAPPING_TOGGLE 2
+#define USER_PRINT
+#define DEBUG

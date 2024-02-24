@@ -3,25 +3,62 @@
 
 👍       ⇒ ↻
 
-j👆       ⇒ just
-j👆👆      ⇒ justment
-👆👆       ⇒ 👆n
-j👍       ⇒ join
-jud👆     ⇒ judge
-jud👆👆    ⇒ judgment
 d★     ⇒ develop
 d★t    ⇒ development
 d★r    ⇒ developer
 d★d    ⇒ developed
 
-:i👍        ⇒ I
-:i👍m       ⇒ I'm
-:i👍d       ⇒ I'd
-:i👍l       ⇒ I'll
+⎵i👍        ⇒ I
+⎵i👍m       ⇒ I'm
+⎵i👍d       ⇒ I'd
+⎵i👍l       ⇒ I'll
 
-# final
 
-:👆      ⇒ the
+⎵c👍        ⇒ come
+⎵s👍        ⇒ some
+
+⎵c👍u        ⇒ could
+⎵w👍u        ⇒ would
+⎵s👍u        ⇒ should
+⎵c👍ut        ⇒ couldn't
+⎵w👍ut        ⇒ wouldn't
+⎵s👍ut        ⇒ shouldn't
+⎵c👍uv        ⇒ could've
+⎵w👍uv        ⇒ would've
+⎵s👍uv        ⇒ should've
+
+
+⎵👆      ⇒ the
+⎵👆r      ⇒ there
+⎵👆rs      ⇒ there's
+⎵👆i      ⇒ their
+⎵👆yr      ⇒ they're
+⎵👆yl      ⇒ they'll
+⎵👆d      ⇒ they'd
+⎵👆s      ⇒ these
+⎵👆t      ⇒ that
+⎵👆a      ⇒ than
+⎵👆o      ⇒ those
+
+⎵t👍        ⇒ time
+⎵t👍g       ⇒ though
+⎵t👍t       ⇒ thought
+⎵t👍r       ⇒ through
+⎵t👍c       ⇒ technology
+⎵t👍a       ⇒ take
+
+⎵w👍        ⇒ why
+⎵w👍n       ⇒ when
+⎵w👍e       ⇒ where
+⎵w👍t       ⇒ what
+⎵w👍r       ⇒ we're
+⎵w👍d       ⇒ we'd
+⎵w👍l       ⇒ we'll
+⎵w👍v       ⇒ we've
+
+a👆      ⇒ abo
+a👆👍      ⇒ about
+a👆👆      ⇒ above
 
 v👆      ⇒ ver
 s👆      ⇒ sk
@@ -33,7 +70,13 @@ k👆      ⇒ ks
 
 l👆      ⇒ lk
 r👆      ⇒ rl
+
 j👆      ⇒ just
+j👆👆      ⇒ justment
+⎵j👍       ⇒ join
+⎵j👍d       ⇒ judge
+⎵j👍dt       ⇒ judgment
+⎵j👍dta       ⇒ judgmental
 
 c👆      ⇒ cy
 p👆      ⇒ py
@@ -50,17 +93,16 @@ z👆      ⇒ zone
 n👆      ⇒ nion
 h👆      ⇒ however
 
-u👆      ⇒ eu
-e👆      ⇒ ue
+u👆      ⇒ ue
+e👆      ⇒ eu
 
 o👆      ⇒ oa
-a👆      ⇒ abo
 
-,👆      ⇒ ,:but
+,👆      ⇒ ,⎵but
 i👆      ⇒ ion
 .👆      ⇒ .\
 
-:👍      ⇒ for
+⎵👍      ⇒ for
 a👍      ⇒ and
 x👍      ⇒ xer
 k👍      ⇒ know
@@ -68,13 +110,12 @@ i👍      ⇒ ing
 y👍      ⇒ you
 q👍      ⇒ quick
 j👍      ⇒ join
-w👍      ⇒ would
 c👍      ⇒ ck
 n👍      ⇒ nf
 h👍      ⇒ hn
-,👍      ⇒ ,:and
-.👍      ⇒ .:⇑
-?👍      ⇒ ?:⇑
-:👍      ⇒ ::⇑
-;👍      ⇒ ;:⇑
-!👍      ⇒ !:⇑
+,👍      ⇒ ,⎵and
+.👍      ⇒ .⎵⇑
+?👍      ⇒ ?⎵⇑
+:👍      ⇒ :⎵⇑
+;👍      ⇒ ;⎵⇑
+!👍      ⇒ !⎵⇑

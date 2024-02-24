@@ -77,9 +77,15 @@ bool process_check(uint16_t *keycode, keyrecord_t *record, uint8_t *mods)
         case QK_ONE_SHOT_MOD ... QK_ONE_SHOT_MOD_MAX:
             return false;
 
-        // Mask for base keycode from shifted keys.
-        case QK_LSFT ... QK_LSFT + 255:
-        case QK_RSFT ... QK_RSFT + 255:
+        // bake shift mod into keycode symbols
+        case KC_1 ... KC_SLASH:
+            if (*mods & MOD_MASK_SHIFT) {
+                *keycode |= QK_LSFT;
+            }
+            return true;
+        // Clear shift for alphas
+        case LSFT(KC_A) ... LSFT(KC_Z):
+        case RSFT(KC_A) ... RSFT(KC_Z):
             if (*keycode >= QK_LSFT && *keycode <= (QK_LSFT + 255)) {
                 *mods |= MOD_LSFT;
             } else {
@@ -109,6 +115,9 @@ bool process_check(uint16_t *keycode, keyrecord_t *record, uint8_t *mods)
                 return false;
             }
             *keycode = QK_MOD_TAP_GET_TAP_KEYCODE(*keycode);
+            if (*mods & MOD_MASK_SHIFT) {
+                *keycode |= QK_LSFT;
+            }
             break;
 #else
         case QK_MOD_TAP ... QK_MOD_TAP_MAX:
@@ -290,9 +299,13 @@ void handle_result(trie_t *trie, trie_search_result_t *res)
     // Send backspaces
     multi_tap(KC_BSPC, res->num_backspaces);
     // Send completion string
+    bool ends_with_wordbreak = false;
     for (int i = res->completion_offset; i < trie->completions_size; ++i) {
         char ascii_code = CDATA(i);
         if (!ascii_code) {
+            if (i > 0 && CDATA(i-1) == KC_SPC) {
+                ends_with_wordbreak = true;
+            }
             break;
         }
         tap_code16(char_to_keycode(ascii_code));
@@ -301,10 +314,16 @@ void handle_result(trie_t *trie, trie_search_result_t *res)
     switch (res->func_code) {
         case 1:  // repeat
             handle_repeat_key();
-            return;
+            break;
         case 2:  // set one-shot shift
             set_oneshot_mods(MOD_LSFT);
-            return;
+            break;
+        case 3:  // disable auto-wordbreak
+            ends_with_wordbreak = false;
+    }
+
+    if (ends_with_wordbreak) {
+        enqueue_keycode(KC_SPC);
     }
 }
 
@@ -363,16 +382,13 @@ bool process_context_magic(uint16_t keycode, keyrecord_t *record)
             keycode = 0x0100 + keycode - US_MAG1;
             break;
         case KC_A ... KC_0:
-            // process normally
-            break;
+        case S(KC_1) ... S(KC_0):
         case KC_MINUS ...KC_SLASH:
-            // treat " (shifted ') as a word boundary
-            if (keycode == KC_QUOTE && (mods & MOD_MASK_SHIFT) != 0)
-                keycode = KC_SPC;
+            // process normally
             break;
         case S(KC_MINUS) ...S(KC_SLASH):
             // treat " (shifted ') as a word boundary
-            if (S(KC_QUOTE))
+            if (keycode == S(KC_QUOTE))
                 keycode = KC_SPC;
             break;
         case KC_BSPC:

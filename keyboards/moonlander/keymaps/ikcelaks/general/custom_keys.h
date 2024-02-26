@@ -9,3 +9,5 @@ enum custom_keycodes {
     US_D_UND,
     US_QUOT_S,
 };
+
+#define SEQUENCE_TRANSFORM_SPECIAL_KEY_0 US_MAG1

@@ -29,7 +29,7 @@ d★d    ⇒ developed
 
 
 ⎵👆      ⇒ the
-⎵👆r      ⇒ there
+⎵👆r⎵     ⇒ there⎵
 ⎵👆rs      ⇒ there's
 ⎵👆i      ⇒ their
 ⎵👆yr      ⇒ they're
@@ -38,7 +38,7 @@ d★d    ⇒ developed
 ⎵👆s      ⇒ these
 ⎵👆t      ⇒ that
 ⎵👆a      ⇒ than
-⎵👆o      ⇒ those
+⎵👆o⎵     ⇒ those
 
 ⎵t👍        ⇒ time
 ⎵t👍g       ⇒ though
@@ -56,9 +56,27 @@ d★d    ⇒ developed
 ⎵w👍l       ⇒ we'll
 ⎵w👍v       ⇒ we've
 
-a👆      ⇒ abo
-a👆👍      ⇒ about
-a👆👆      ⇒ above
+⎵a👆      ⇒ abo
+⎵a👆t      ⇒ about
+⎵a👆v      ⇒ above
+⎵a👆d      ⇒ aboard
+⎵a👆s      ⇒ absolute
+
+⎵a👍r        ⇒ after
+⎵a👍n        ⇒ again
+⎵a👍t        ⇒ against
+⎵a👍s        ⇒ answer
+⎵a👍p        ⇒ appear
+⎵a👍w        ⇒ always
+⎵a👍y        ⇒ already
+⎵a👍l        ⇒ alright
+
+⎵u👍        ⇒ use
+⎵u👍f        ⇒ useful
+⎵u👍t        ⇒ update
+⎵u👍g        ⇒ upgrade
+⎵u👍s        ⇒ upside
+⎵u👍sd        ⇒ upsidedown
 
 v👆      ⇒ ver
 s👆      ⇒ sk

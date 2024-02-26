@@ -3,4 +3,4 @@
 #include QMK_KEYBOARD_H
 
 #include "general/custom_keys.h"
-#include "magic_sturdy/context_magic.h"
+#include "sequence_transform/sequence_transform.h"

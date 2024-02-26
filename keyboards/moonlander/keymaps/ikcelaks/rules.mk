@@ -7,5 +7,5 @@ COMBO_ENABLE = yes
 REPEAT_KEY_ENABLE = yes
 DEFERRED_EXEC_ENABLE = yes
 
-SRC += magic_sturdy/context_magic.c
-SRC += magic_sturdy/utils.c
+SRC += sequence_transform/sequence_transform.c
+SRC += sequence_transform/utils.c

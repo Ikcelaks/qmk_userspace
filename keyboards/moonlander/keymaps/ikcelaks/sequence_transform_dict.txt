@@ -12,13 +12,14 @@ d★d    ⇒ developed
 ⎵i👍m       ⇒ I'm
 ⎵i👍d       ⇒ I'd
 ⎵i👍l       ⇒ I'll
-⎵i👍r       ⇒ increase
-⎵i👍rg      ⇒ increasing
+⎵i👍t       ⇒ isn't
+⎵i👍s       ⇒ increase
+⎵i👍sg      ⇒ increasing
 ⎵i👍e       ⇒ include
 ⎵i👍eg      ⇒ including
-⎵i👍t       ⇒ interest
-⎵i👍tg      ⇒ interesting
-⎵i👍td      ⇒ interested
+⎵i👍r       ⇒ interest
+⎵i👍rg      ⇒ interesting
+⎵i👍rd      ⇒ interested
 
 
 ⎵c👍        ⇒ come
@@ -137,6 +138,7 @@ rs👍       ⇒ rst
 ⎵b👍s        ⇒ because
 ⎵b👍c        ⇒ become
 ⎵b👍t        ⇒ between
+⎵b👍k        ⇒ back
 ⎵b👍g        ⇒ begin
 ⎵b👍l        ⇒ believe
 ⎵b👍e        ⇒ been
@@ -281,9 +283,10 @@ s👆l        ⇒ school
 ⎵h👍         ⇒ have
 ⎵h👍r        ⇒ here
 ⎵h👍s        ⇒ house
-⎵h👍t        ⇒ height
+⎵h👍t        ⇒ haven't
 ⎵h👍l        ⇒ help
-⎵h👍d        ⇒ hold
+⎵h👍d        ⇒ had
+⎵h👍dt       ⇒ hadn't
 
 ⎵g👍         ⇒ give
 ⎵g👍v        ⇒ govern

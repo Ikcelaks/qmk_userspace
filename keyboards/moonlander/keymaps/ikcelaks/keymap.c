@@ -126,6 +126,10 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     return true;
 }
 
+void post_process_record_user(uint16_t keycode, keyrecord_t *record) {
+    post_process_sequence_transform();
+}
+
 // extern rgb_config_t rgb_matrix_config;
 
 void keyboard_post_init_user(void)

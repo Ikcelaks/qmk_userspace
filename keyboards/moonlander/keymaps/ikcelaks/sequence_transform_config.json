@@ -1,5 +1,5 @@
 {
-    "rules_file_name": "./sequence_transform_dict.txt",
+    "rules_file_name": "sequence_transform_dict.txt",
     "magic_chars": "👆👍★✪",
     "wordbreak_char": "⎵",
     "output_func_chars": "↻⇑",

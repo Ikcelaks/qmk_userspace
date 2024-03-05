@@ -12,10 +12,26 @@ d★d    ⇒ developed
 ⎵i👍m       ⇒ I'm
 ⎵i👍d       ⇒ I'd
 ⎵i👍l       ⇒ I'll
+⎵i👍r       ⇒ increase
+⎵i👍rg      ⇒ increasing
+⎵i👍e       ⇒ include
+⎵i👍eg      ⇒ including
+⎵i👍t       ⇒ interest
+⎵i👍tg      ⇒ interesting
+⎵i👍td      ⇒ interested
 
 
 ⎵c👍        ⇒ come
-⎵s👍        ⇒ some
+⎵c👍o       ⇒ course
+⎵c👍a       ⇒ change
+⎵c👍ai       ⇒ changing
+⎵c👍s       ⇒ cause
+⎵c👍n       ⇒ consider
+⎵c👍m       ⇒ complete
+⎵c👍l       ⇒ call
+⎵c👍h       ⇒ child
+⎵c👍hr      ⇒ children
+
 
 ⎵c👍u        ⇒ could
 ⎵w👍u        ⇒ would
@@ -28,41 +44,173 @@ d★d    ⇒ developed
 ⎵s👍uv        ⇒ should've
 
 
+⎵r👍        ⇒ right
+⎵r👍d       ⇒ round
+⎵r👍y       ⇒ ready
+⎵r👍i       ⇒ river
+⎵r👍e       ⇒ real
+⎵r👍ey      ⇒ really
+⎵r👍m       ⇒ remember
+⎵r👍c       ⇒ record
+⎵r👍h       ⇒ reach
+⎵r👍s       ⇒ restaurant
+
+⎵l👍        ⇒ like
+⎵l👍i       ⇒ light
+⎵l👍a       ⇒ large
+⎵l👍o       ⇒ look
+⎵l👍f       ⇒ life
+⎵l👍t       ⇒ last
+⎵l👍n       ⇒ line
+
+⎵m👍        ⇒ make
+⎵m👍g       ⇒ making
+⎵m👍i       ⇒ might
+⎵m👍o       ⇒ most
+⎵m👍e       ⇒ more
+⎵m👍u       ⇒ must
+⎵m👍c       ⇒ much
+⎵m👍v       ⇒ move
+⎵m👍n       ⇒ mean
+⎵m👍r       ⇒ mother
+
 ⎵👆      ⇒ the
 ⎵👆r⎵     ⇒ there⎵
 ⎵👆rs      ⇒ there's
 ⎵👆i      ⇒ their
+⎵👆g      ⇒ thing
+⎵👆k      ⇒ think
 ⎵👆yr      ⇒ they're
 ⎵👆yl      ⇒ they'll
 ⎵👆d      ⇒ they'd
-⎵👆s      ⇒ these
+⎵👆s⎵     ⇒ this⎵
 ⎵👆t      ⇒ that
-⎵👆a      ⇒ than
-⎵👆o⎵     ⇒ those
+⎵👆a⎵     ⇒ than⎵
+⎵👆ak     ⇒ thank
+⎵👆o⎵     ⇒ those⎵
 
 ⎵t👍        ⇒ time
 ⎵t👍g       ⇒ though
 ⎵t👍t       ⇒ thought
 ⎵t👍r       ⇒ through
-⎵t👍c       ⇒ technology
+⎵t👍n       ⇒ techn
+⎵t👍ny      ⇒ technology
+⎵t👍nl      ⇒ technical
+⎵t👍nly     ⇒ technically
+⎵t👍nu      ⇒ technique
+⎵t👍w       ⇒ throw
 ⎵t👍a       ⇒ take
+⎵t👍ag      ⇒ taking
+
+⎵t👆        ⇒ tell
+
+k👍d        ⇒ knowledge
+k👍di       ⇒ knowledging
+
+⎵k👆        ⇒ keep
+
+⎵o👍        ⇒ one
+⎵o👍x       ⇒ oxygen
+⎵o👍r       ⇒ other
+⎵o👍t       ⇒ often
+⎵o👍b       ⇒ object
+⎵o👍s       ⇒ observe
+⎵o👍p       ⇒ opposite
+⎵o👍g       ⇒ original
+⎵o👍c       ⇒ occur
+⎵o👍f       ⇒ offer
+⎵o👍d       ⇒ order
+⎵o👍di      ⇒ ordering
+
+⎵x👍       ⇒ xab
+⎵x👍x       ⇒ xabcd
+⎵x👍xx       ⇒ y
+⎵x👍kx       ⇒ k
+
+ou👍       ⇒ ough
+au👍       ⇒ augh
+
+st👍       ⇒ sts
+rs👍       ⇒ rst
+
+⎵b👍        ⇒ be
+⎵b👍s        ⇒ because
+⎵b👍c        ⇒ become
+⎵b👍t        ⇒ between
+⎵b👍g        ⇒ begin
+⎵b👍l        ⇒ believe
+⎵b👍e        ⇒ been
+⎵b👍r        ⇒ brother
+⎵b👍o        ⇒ both
+
+⎵f👍        ⇒ from
+⎵f👍l        ⇒ follow
+⎵f👍l👆      ⇒ follower
+⎵f👍ld       ⇒ followed
+⎵f👍r        ⇒ friend
+⎵f👍d        ⇒ find
+⎵f👍e        ⇒ feel
+⎵f👍c        ⇒ face
+⎵f👍t        ⇒ fact
+
+⎵n👍         ⇒ not
+⎵n👍v        ⇒ never
+⎵n👍t        ⇒ nation
+⎵n👍d        ⇒ need
+⎵n👍w        ⇒ nowhere
+⎵n👍g        ⇒ nothing
+⎵n👍m        ⇒ number
+
+⎵e👍        ⇒ each
+⎵e👍g       ⇒ enough
+⎵e👍n       ⇒ even
+⎵e👍y       ⇒ every
+⎵e👍ym      ⇒ everytime
+⎵e👍yt      ⇒ everything
+⎵e👍r       ⇒ early
+⎵e👍x       ⇒ example
+⎵e👍c       ⇒ exercise
+⎵e👍p       ⇒ expert
+⎵e👍q       ⇒ equal
+⎵e👍qe      ⇒ equate
 
 ⎵w👍        ⇒ why
+⎵w👍i       ⇒ which
 ⎵w👍n       ⇒ when
+⎵w👍h       ⇒ while
 ⎵w👍e       ⇒ where
 ⎵w👍t       ⇒ what
+⎵w👍o       ⇒ world
+⎵w👍k       ⇒ work
+⎵w👍ts      ⇒ what's
 ⎵w👍r       ⇒ we're
 ⎵w👍d       ⇒ we'd
 ⎵w👍l       ⇒ we'll
 ⎵w👍v       ⇒ we've
 
-⎵a👆      ⇒ abo
+⎵w👆i       ⇒ will
+⎵w👆l       ⇒ well
+⎵w👆r       ⇒ write
+⎵w👆o       ⇒ word
+⎵w👆t       ⇒ with
+⎵w👆to      ⇒ without
+
+⎵v👍        ⇒ view
+⎵v👍r       ⇒ viewer
+⎵v👍d       ⇒ viewed
+⎵v👍i       ⇒ vision
+⎵v👍n       ⇒ version
+
+⎵a👆       ⇒ abo
 ⎵a👆t      ⇒ about
 ⎵a👆v      ⇒ above
 ⎵a👆d      ⇒ aboard
 ⎵a👆s      ⇒ absolute
+⎵a👆l      ⇒ also
 
 ⎵a👍r        ⇒ after
+⎵a👍👆       ⇒ another
+⎵a👍d        ⇒ around
 ⎵a👍n        ⇒ again
 ⎵a👍t        ⇒ against
 ⎵a👍s        ⇒ answer
@@ -71,22 +219,101 @@ d★d    ⇒ developed
 ⎵a👍y        ⇒ already
 ⎵a👍l        ⇒ alright
 
-⎵u👍        ⇒ use
+⎵s👍        ⇒ some
+⎵s👍t        ⇒ sometimes
+⎵s👍g        ⇒ something
+⎵s👍h        ⇒ somehow
+⎵s👍y        ⇒ system
+⎵s👍d        ⇒ sound
+⎵s👍c        ⇒ success
+⎵s👍l        ⇒ school
+⎵s👍m        ⇒ small
+⎵s👍p        ⇒ special
+⎵s👍w        ⇒ show
+⎵s👍wr       ⇒ shower
+⎵s👍wd       ⇒ showed
+⎵s👍wi       ⇒ showing
+⎵s👍a        ⇒ state
+⎵s👍e        ⇒ seem
+⎵s👍i        ⇒ still
+⎵s👍n        ⇒ since
+
+⎵s👆c       ⇒ such
+
+s👆l        ⇒ school
+
+⎵p👍        ⇒ pro
+⎵p👍b       ⇒ problem
+⎵p👍m       ⇒ program
+⎵p👍r       ⇒ present
+⎵p👍e       ⇒ people
+⎵p👍a       ⇒ play
+⎵p👍s       ⇒ possible
+⎵p👍n       ⇒ person
+⎵p👍o       ⇒ power
+⎵p👍u       ⇒ public
+⎵p👍h       ⇒ psych
+⎵p👍l       ⇒ place
+⎵p👍t       ⇒ point
+
+⎵d👍        ⇒ do
+⎵d👍t       ⇒ don't
+⎵d👍i       ⇒ did
+⎵d👍it      ⇒ didn't
+⎵d👍f       ⇒ differ
+⎵d👍ft      ⇒ different
+⎵d👍u       ⇒ difficult
+⎵d👍r       ⇒ during
+⎵d👍n       ⇒ down
+⎵d👍d       ⇒ decide
+⎵d👍l       ⇒ develop
+⎵d👍lm       ⇒ development
+⎵d👍ld       ⇒ developed
+⎵d👍l👆      ⇒ developer
+
+⎵u👍         ⇒ use
+⎵u👍g        ⇒ using
 ⎵u👍f        ⇒ useful
 ⎵u👍t        ⇒ update
-⎵u👍g        ⇒ upgrade
-⎵u👍s        ⇒ upside
-⎵u👍sd        ⇒ upsidedown
+⎵u👍r        ⇒ upgrade
+⎵u👍n        ⇒ under
+
+⎵h👍         ⇒ have
+⎵h👍r        ⇒ here
+⎵h👍s        ⇒ house
+⎵h👍t        ⇒ height
+⎵h👍l        ⇒ help
+⎵h👍d        ⇒ hold
+
+⎵g👍         ⇒ give
+⎵g👍v        ⇒ govern
+⎵g👍e        ⇒ general
+⎵g👍d        ⇒ governed
+⎵g👍m        ⇒ government
+⎵g👍r        ⇒ group
+⎵g👍t        ⇒ great
+⎵g👍o        ⇒ good
+⎵g👍u        ⇒ guage
+⎵g👍a        ⇒ guarantee
+
+⎵l👆      ⇒ little
 
 v👆      ⇒ ver
 s👆      ⇒ sk
-x👆      ⇒ es
+x👆      ⇒ xes
 
 m👆      ⇒ ment
+ma👆     ⇒ make
+mr👆      ⇒ mark
 t👆      ⇒ tment
+ta👆     ⇒ take
 k👆      ⇒ ks
 
 l👆      ⇒ lk
+li👆      ⇒ list
+blivi👆   ⇒ blivion
+vili👆   ⇒ vilion
+lli👆   ⇒ llion
 r👆      ⇒ rl
 
 j👆      ⇒ just
@@ -98,11 +325,17 @@ j👆👆      ⇒ justment
 
 c👆      ⇒ cy
 p👆      ⇒ py
+pl👆      ⇒ ply
+pa👆      ⇒ page
 d👆      ⇒ dy
+da👆      ⇒ day
+dr👆      ⇒ dry
 y👆      ⇒ yp
 g👆      ⇒ gy
-w👆      ⇒ which
-q👆      ⇒ question
+w👆      ⇒ way
+q👆      ⇒ quest
+q👆👆      ⇒ question
+q👆d      ⇒ quested
 
 b👆      ⇒ before
 f👆      ⇒ first
@@ -119,6 +352,8 @@ o👆      ⇒ oa
 ,👆      ⇒ ,⎵but
 i👆      ⇒ ion
 .👆      ⇒ .\
+-👆      ⇒ ->
+=👆      ⇒ =>
 
 ⎵👍      ⇒ for
 a👍      ⇒ and

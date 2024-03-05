@@ -10,4 +10,4 @@ enum custom_keycodes {
     US_QUOT_S,
 };
 
-#define SEQUENCE_TRANSFORM_SPECIAL_KEY_0 US_MAG1
+// #define SEQUENCE_TRANSFORM_SPECIAL_KEY_0 US_MAG1

@@ -4,5 +4,8 @@
     "wordbreak_char": "⎵",
     "output_func_chars": "↻⇑",
     "comment_str": "#",
-    "separator_str": "⇒"
+    "separator_str": "⇒",
+    "seq_tokens_ascii": "*@$#",
+    "wordbreak_ascii": "^",
+    "quiet": false
 }

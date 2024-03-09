@@ -8,10 +8,15 @@ d★t    ⇒ development
 d★r    ⇒ developer
 d★d    ⇒ developed
 
+judge👆     ⇒ judgment
+
+the👍       ⇒ theory
+
 ⎵i👍        ⇒ I
 ⎵i👍m       ⇒ I'm
 ⎵i👍d       ⇒ I'd
 ⎵i👍l       ⇒ I'll
+⎵i👍v       ⇒ I've
 ⎵i👍t       ⇒ isn't
 ⎵i👍s       ⇒ increase
 ⎵i👍sg      ⇒ increasing
@@ -63,6 +68,7 @@ d★d    ⇒ developed
 ⎵l👍f       ⇒ life
 ⎵l👍t       ⇒ last
 ⎵l👍n       ⇒ line
+⎵l👍v       ⇒ leave
 
 ⎵m👍        ⇒ make
 ⎵m👍g       ⇒ making
@@ -135,6 +141,7 @@ st👍       ⇒ sts
 rs👍       ⇒ rst
 
 ⎵b👍        ⇒ be
+⎵b👍o        ⇒ both
 ⎵b👍s        ⇒ because
 ⎵b👍c        ⇒ become
 ⎵b👍t        ⇒ between
@@ -143,7 +150,7 @@ rs👍       ⇒ rst
 ⎵b👍l        ⇒ believe
 ⎵b👍e        ⇒ been
 ⎵b👍r        ⇒ brother
-⎵b👍o        ⇒ both
+⎵b👍u        ⇒ buffer
 
 ⎵f👍        ⇒ from
 ⎵f👍l        ⇒ follow
@@ -181,7 +188,8 @@ rs👍       ⇒ rst
 ⎵w👍n       ⇒ when
 ⎵w👍h       ⇒ while
 ⎵w👍e       ⇒ where
-⎵w👍t       ⇒ what
+⎵w👍a       ⇒ what
+⎵w👍t       ⇒ won't
 ⎵w👍o       ⇒ world
 ⎵w👍k       ⇒ work
 ⎵w👍ts      ⇒ what's
@@ -274,13 +282,15 @@ s👆l        ⇒ school
 ⎵d👍l👆      ⇒ developer
 
 ⎵u👍         ⇒ use
-⎵u👍g        ⇒ using
+⎵u👍i        ⇒ using
 ⎵u👍f        ⇒ useful
+⎵u👍r        ⇒ user
 ⎵u👍t        ⇒ update
-⎵u👍r        ⇒ upgrade
+⎵u👍g        ⇒ upgrade
 ⎵u👍n        ⇒ under
 
 ⎵h👍         ⇒ have
+⎵h👍g        ⇒ having
 ⎵h👍r        ⇒ here
 ⎵h👍s        ⇒ house
 ⎵h👍t        ⇒ haven't
@@ -291,8 +301,8 @@ s👆l        ⇒ school
 ⎵g👍         ⇒ give
 ⎵g👍v        ⇒ govern
 ⎵g👍e        ⇒ general
-⎵g👍d        ⇒ governed
-⎵g👍m        ⇒ government
+⎵g👍vd       ⇒ governed
+⎵g👍vm       ⇒ government
 ⎵g👍r        ⇒ group
 ⎵g👍t        ⇒ great
 ⎵g👍o        ⇒ good

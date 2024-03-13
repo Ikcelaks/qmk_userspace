@@ -18,7 +18,8 @@
 
 
 
-#include "__init__.h"
+#include QMK_KEYBOARD_H
+#include "sequence_transform/sequence_transform.h"
 
 #define KC_MAC_UNDO LGUI(KC_Z)
 #define KC_MAC_CUT LGUI(KC_X)
@@ -41,8 +42,17 @@
 #define C_GUI_ESC LGUI_T(KC_ESC)
 #define C_RSFT_ENT RSFT_T(KC_ENT)
 #define C_LALT_ENT LALT_T(KC_ENT)
-#define C_RCTL_MINS RCTL_T(KC_MINS)
+#define C_RCTL_QUOT RCTL_T(KC_QUOT)
 #define C_LCTL_BSPC LCTL(KC_BSPC)
+
+enum custom_keycodes {
+    US_MAG1 = SAFE_RANGE,
+    US_MAG2,
+    US_MAG3,
+    US_MAG4,
+    US_D_UND,
+    US_QUOT_S,
+};
 
 enum layers {
     BASE,  // default layer
@@ -56,8 +66,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[BASE] = LAYOUT_moonlander(
         KC_DOT,         KC_1,           KC_2,           KC_3,           KC_4,           KC_5,           KC_EQL,                                         KC_ASTR,        KC_6,           KC_7,           KC_8,           KC_9,           KC_0,           KC_BSPC,
         KC_TAB,         KC_V,           KC_M,           KC_L,           KC_C,           KC_P,           KC_DQUO,                                        KC_PIPE,        KC_B,           US_MAG1,        KC_U,           KC_O,           KC_COMM,        KC_BSLS,
-        LCTL(KC_BSPC),  KC_S,           KC_T,           KC_R,           KC_D,           KC_Y,           KC_Q,                                           KC_DLR,         KC_F,           KC_N,           KC_E,           KC_A,           KC_I,           C_RCTL_MINS,
-        KC_LSFT,        KC_X,           KC_K,           KC_J,           KC_G,           KC_W,                                                                                   KC_Z,           KC_H,           KC_QUOT,        KC_QUES,        KC_DOT,         C_RSFT_ENT,
+        LCTL(KC_BSPC),  KC_S,           KC_T,           KC_R,           KC_D,           KC_Y,           KC_Q,                                           KC_DLR,         KC_F,           KC_N,           KC_E,           KC_A,           KC_I,           C_RCTL_QUOT,
+        KC_LSFT,        KC_X,           KC_K,           KC_J,           KC_G,           KC_W,                                                                                   KC_Z,           KC_H,           KC_MINS,        KC_QUES,        KC_DOT,         C_RSFT_ENT,
         KC_GRV,         KC_LCTL,        KC_LGUI,        KC_ESC,         TT(NAVI),                       C_LALT_ENT,                                     C_GUI_ESC,                     C_S_T(KC_SLSH),  KC_LALT,        KC_LBRC,        TT(MDIA),       TT(SYMB),
                                                                         KC_SPC,         KC_BSPC,        KC_DEL,                                         OSL(SYMB),      OSM(MOD_LSFT),      US_MAG2
     ),
@@ -92,8 +102,8 @@ const uint16_t PROGMEM combo_LB_IM[] = { KC_J, KC_G, COMBO_END};
 const uint16_t PROGMEM combo_LB_MR[] = { KC_K, KC_J, COMBO_END};
 const uint16_t PROGMEM combo_LB_RP[] = { KC_X, KC_K, COMBO_END};
 const uint16_t PROGMEM combo_LB_IR[] = { KC_K, KC_G, COMBO_END};
-const uint16_t PROGMEM combo_RB_IM[] = { KC_H, KC_QUOT, COMBO_END};
-const uint16_t PROGMEM combo_RB_MR[] = { KC_QUOT, KC_QUES, COMBO_END};
+const uint16_t PROGMEM combo_RB_IM[] = { KC_H, KC_MINS, COMBO_END};
+const uint16_t PROGMEM combo_RB_MR[] = { KC_MINS, KC_QUES, COMBO_END};
 const uint16_t PROGMEM combo_RB_RP[] = { KC_QUES, KC_DOT, COMBO_END};
 const uint16_t PROGMEM combo_RB_IR[] = { KC_H, KC_QUES, COMBO_END};
 

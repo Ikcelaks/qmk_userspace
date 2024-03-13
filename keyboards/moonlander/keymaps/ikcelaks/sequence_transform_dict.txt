@@ -12,12 +12,16 @@ judge👆     ⇒ judgment
 
 the👍       ⇒ theory
 
+sim👆       ⇒ simultaneously
+sim👆👆       ⇒ simultaneous
+
 ⎵i👍        ⇒ I
 ⎵i👍m       ⇒ I'm
 ⎵i👍d       ⇒ I'd
 ⎵i👍l       ⇒ I'll
 ⎵i👍v       ⇒ I've
 ⎵i👍t       ⇒ isn't
+⎵i👍ts      ⇒ it's
 ⎵i👍s       ⇒ increase
 ⎵i👍sg      ⇒ increasing
 ⎵i👍e       ⇒ include
@@ -28,9 +32,10 @@ the👍       ⇒ theory
 
 
 ⎵c👍        ⇒ come
+⎵c👍v        ⇒ co
 ⎵c👍o       ⇒ course
 ⎵c👍a       ⇒ change
-⎵c👍ai       ⇒ changing
+⎵c👍ai      ⇒ changing
 ⎵c👍s       ⇒ cause
 ⎵c👍n       ⇒ consider
 ⎵c👍m       ⇒ complete
@@ -42,6 +47,7 @@ the👍       ⇒ theory
 ⎵c👍u        ⇒ could
 ⎵w👍u        ⇒ would
 ⎵s👍u        ⇒ should
+⎵s👍ur        ⇒ shoulder
 ⎵c👍ut        ⇒ couldn't
 ⎵w👍ut        ⇒ wouldn't
 ⎵s👍ut        ⇒ shouldn't
@@ -59,12 +65,14 @@ the👍       ⇒ theory
 ⎵r👍m       ⇒ remember
 ⎵r👍c       ⇒ record
 ⎵r👍h       ⇒ reach
-⎵r👍s       ⇒ restaurant
+⎵r👍st      ⇒ restaurant
 
 ⎵l👍        ⇒ like
+⎵l👍g       ⇒ liking
 ⎵l👍i       ⇒ light
 ⎵l👍a       ⇒ large
 ⎵l👍o       ⇒ look
+⎵l👍og      ⇒ looking
 ⎵l👍f       ⇒ life
 ⎵l👍t       ⇒ last
 ⎵l👍n       ⇒ line
@@ -92,6 +100,7 @@ the👍       ⇒ theory
 ⎵👆d      ⇒ they'd
 ⎵👆s⎵     ⇒ this⎵
 ⎵👆t      ⇒ that
+⎵👆ts     ⇒ that's
 ⎵👆a⎵     ⇒ than⎵
 ⎵👆ak     ⇒ thank
 ⎵👆o⎵     ⇒ those⎵
@@ -169,6 +178,7 @@ rs👍       ⇒ rst
 ⎵n👍w        ⇒ nowhere
 ⎵n👍g        ⇒ nothing
 ⎵n👍m        ⇒ number
+⎵n👍r        ⇒ neighbor
 
 ⎵e👍        ⇒ each
 ⎵e👍g       ⇒ enough
@@ -201,6 +211,8 @@ rs👍       ⇒ rst
 ⎵w👆i       ⇒ will
 ⎵w👆l       ⇒ well
 ⎵w👆r       ⇒ write
+⎵w👆rn      ⇒ written
+⎵w👆ri      ⇒ writing
 ⎵w👆o       ⇒ word
 ⎵w👆t       ⇒ with
 ⎵w👆to      ⇒ without
@@ -233,16 +245,14 @@ rs👍       ⇒ rst
 ⎵s👍t        ⇒ sometimes
 ⎵s👍g        ⇒ something
 ⎵s👍h        ⇒ somehow
+⎵s👍w        ⇒ somewhere
 ⎵s👍y        ⇒ system
 ⎵s👍d        ⇒ sound
-⎵s👍c        ⇒ success
+⎵s👍c        ⇒ science
+⎵s👍s        ⇒ success
 ⎵s👍l        ⇒ school
 ⎵s👍m        ⇒ small
 ⎵s👍p        ⇒ special
-⎵s👍w        ⇒ show
-⎵s👍wr       ⇒ shower
-⎵s👍wd       ⇒ showed
-⎵s👍wi       ⇒ showing
 ⎵s👍a        ⇒ state
 ⎵s👍e        ⇒ seem
 ⎵s👍i        ⇒ still
@@ -308,6 +318,13 @@ s👆l        ⇒ school
 ⎵g👍o        ⇒ good
 ⎵g👍u        ⇒ guage
 ⎵g👍a        ⇒ guarantee
+
+⎵y👍e      ⇒ you're
+⎵y👍l      ⇒ you'll
+⎵y👍v      ⇒ you've
+⎵y👍d      ⇒ you'd
+⎵y👍y      ⇒ yesterday
+⎵y👍o      ⇒ yellow
 
 ⎵l👆      ⇒ little
 

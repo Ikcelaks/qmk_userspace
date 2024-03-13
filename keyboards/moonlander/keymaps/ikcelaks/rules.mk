@@ -8,12 +8,7 @@ REPEAT_KEY_ENABLE = yes
 DEFERRED_EXEC_ENABLE = yes
 CAPS_WORD_ENABLE = yes
 
-SRC += sequence_transform/sequence_transform.c
-SRC += sequence_transform/utils.c
-SRC += sequence_transform/keybuffer.c
-SRC += sequence_transform/key_stack.c
-SRC += sequence_transform/trie.c
-SRC += sequence_transform/cursor.c
+include /home/qmk/qmk_userspace/keyboards/moonlander/keymaps/ikcelaks/sequence_transform/rules.mk
 
 # Automatically rebuild my sequence_transform rules from the latest config
 $(shell python3 /home/qmk/qmk_userspace/keyboards/moonlander/keymaps/ikcelaks/sequence_transform/generator/sequence_transform_data.py -q)

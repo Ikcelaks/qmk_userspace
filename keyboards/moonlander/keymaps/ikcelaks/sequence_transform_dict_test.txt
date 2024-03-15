@@ -5,6 +5,5 @@
 # ⎵reason👆     ⇒ reasonable
 # ⎵re👆👆y      ⇒ reasonably
 
-⎵re👆         ⇒ reason
-⎵reason👆     ⇒ reasonable
-⎵reasonable👆    ⇒ reasonably
+⎵j👆         ⇒ judge
+⎵j👆👆         ⇒ judgment

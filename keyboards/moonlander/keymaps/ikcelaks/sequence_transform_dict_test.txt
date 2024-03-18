@@ -5,5 +5,20 @@
 # ⎵reason👆     ⇒ reasonable
 # ⎵re👆👆y      ⇒ reasonably
 
-⎵j👆         ⇒ judge
-⎵j👆👆         ⇒ judgment
+# ⎵i👍         ⇒ I
+# i👍         ⇒ ing
+
+# x👆 ⇒ xt
+# ex👆 ⇒ example
+
+,👆 ⇒ ,⎵and
+# s👆 ⇒ sk
+# .👆 ⇒ .
+# e👆a ⇒ ev
+# e👆a⎵ ⇒ even⎵
+
+⎵s👍         ⇒ some
+⎵s👍t         ⇒ sometimes
+x👆         ⇒ yellow
+x👆b        ⇒ blue
+x👆br        ⇒ red

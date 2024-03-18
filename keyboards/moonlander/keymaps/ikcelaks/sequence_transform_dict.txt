@@ -3,6 +3,30 @@
 
 👍       ⇒ ↻
 
+
+⎵s👍q       ⇒ sequence
+⎵s👍qo      ⇒ sequence_transform
+⎵s👍q-      ⇒ sequence-transform
+⎵s👍q⎵o⎵    ⇒ sequence⎵transform⎵
+⎵t👍o       ⇒ transform
+⎵s👍l       ⇒ symbol
+⎵k👍r       ⇒ keypress
+⎵k👍b       ⇒ key_buffer
+
+
+
+qa      ⇒ qua
+qi      ⇒ qui
+qe      ⇒ que
+qo      ⇒ quo
+qa👆    ⇒ qua
+qi👆    ⇒ qui
+qe👆    ⇒ que
+qo👆    ⇒ quo
+⎵eqa👍        ⇒ equal
+⎵eqa👍y        ⇒ equally
+⎵eqa👍t        ⇒ equality
+
 d★     ⇒ develop
 d★t    ⇒ development
 d★r    ⇒ developer
@@ -155,6 +179,7 @@ rs👍       ⇒ rst
 ⎵b👍c        ⇒ become
 ⎵b👍t        ⇒ between
 ⎵b👍k        ⇒ back
+⎵b👍ka       ⇒ backspace
 ⎵b👍g        ⇒ begin
 ⎵b👍l        ⇒ believe
 ⎵b👍e        ⇒ been
@@ -214,6 +239,7 @@ rs👍       ⇒ rst
 ⎵w👆rn      ⇒ written
 ⎵w👆ri      ⇒ writing
 ⎵w👆o       ⇒ word
+⎵w👆ok      ⇒ wordbreak
 ⎵w👆t       ⇒ with
 ⎵w👆to      ⇒ without
 
@@ -250,7 +276,6 @@ rs👍       ⇒ rst
 ⎵s👍d        ⇒ sound
 ⎵s👍c        ⇒ science
 ⎵s👍s        ⇒ success
-⎵s👍l        ⇒ school
 ⎵s👍m        ⇒ small
 ⎵s👍p        ⇒ special
 ⎵s👍a        ⇒ state
@@ -334,6 +359,7 @@ x👆      ⇒ xes
 
 m👆      ⇒ ment
 ma👆     ⇒ make
+ma👆g     ⇒ making
 mr👆      ⇒ mark
 t👆      ⇒ tment
 ta👆     ⇒ take

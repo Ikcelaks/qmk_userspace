@@ -17,8 +17,15 @@
 # e👆a ⇒ ev
 # e👆a⎵ ⇒ even⎵
 
-⎵s👍         ⇒ some
-⎵s👍t         ⇒ sometimes
-x👆         ⇒ yellow
-x👆b        ⇒ blue
-x👆br        ⇒ red
+
+qa      ⇒ qua
+qi      ⇒ qui
+qe      ⇒ que
+qo      ⇒ quo
+qa👆    ⇒ qa
+qi👆    ⇒ qi
+qe👆    ⇒ qe
+qo👆    ⇒ qo
+
+⎵qua👍         ⇒ ⎵quali
+⎵qa👍t         ⇒ ⎵quality

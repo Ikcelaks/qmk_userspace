@@ -19,13 +19,13 @@ qa      ⇒ qua
 qi      ⇒ qui
 qe      ⇒ que
 qo      ⇒ quo
-qa👆    ⇒ qua
-qi👆    ⇒ qui
-qe👆    ⇒ que
-qo👆    ⇒ quo
-⎵eqa👍        ⇒ equal
-⎵eqa👍y        ⇒ equally
-⎵eqa👍t        ⇒ equality
+qa👆    ⇒ qa
+qi👆    ⇒ qi
+qe👆    ⇒ qe
+qo👆    ⇒ qo
+
+⎵qua👆         ⇒ quali
+⎵qa👆t         ⇒ quality
 
 d★     ⇒ develop
 d★t    ⇒ development
@@ -56,11 +56,12 @@ sim👆👆       ⇒ simultaneous
 
 
 ⎵c👍        ⇒ come
-⎵c👍v        ⇒ co
+⎵c👍t       ⇒ can't
+⎵c👍v       ⇒ cover
 ⎵c👍o       ⇒ course
 ⎵c👍a       ⇒ change
 ⎵c👍ai      ⇒ changing
-⎵c👍s       ⇒ cause
+⎵c👍e       ⇒ cause
 ⎵c👍n       ⇒ consider
 ⎵c👍m       ⇒ complete
 ⎵c👍l       ⇒ call
@@ -234,7 +235,7 @@ rs👍       ⇒ rst
 ⎵w👍v       ⇒ we've
 
 ⎵w👆i       ⇒ will
-⎵w👆l       ⇒ well
+⎵w👆e       ⇒ well
 ⎵w👆r       ⇒ write
 ⎵w👆rn      ⇒ written
 ⎵w👆ri      ⇒ writing
@@ -257,6 +258,7 @@ rs👍       ⇒ rst
 ⎵a👆l      ⇒ also
 
 ⎵a👍r        ⇒ after
+⎵a👍rt       ⇒ aren't
 ⎵a👍👆       ⇒ another
 ⎵a👍d        ⇒ around
 ⎵a👍n        ⇒ again
@@ -280,6 +282,9 @@ rs👍       ⇒ rst
 ⎵s👍p        ⇒ special
 ⎵s👍a        ⇒ state
 ⎵s👍e        ⇒ seem
+⎵s👍es       ⇒ she's
+⎵s👍ed       ⇒ she'd
+⎵s👍el       ⇒ she'll
 ⎵s👍i        ⇒ still
 ⎵s👍n        ⇒ since
 
@@ -305,6 +310,8 @@ s👆l        ⇒ school
 ⎵d👍t       ⇒ don't
 ⎵d👍i       ⇒ did
 ⎵d👍it      ⇒ didn't
+⎵d👍s       ⇒ does
+⎵d👍st      ⇒ doesn't
 ⎵d👍f       ⇒ differ
 ⎵d👍ft      ⇒ different
 ⎵d👍u       ⇒ difficult
@@ -326,6 +333,10 @@ s👆l        ⇒ school
 
 ⎵h👍         ⇒ have
 ⎵h👍g        ⇒ having
+⎵h👍e        ⇒ he
+⎵h👍es       ⇒ he's
+⎵h👍el       ⇒ he'll
+⎵h👍ed       ⇒ he'd
 ⎵h👍r        ⇒ here
 ⎵h👍s        ⇒ house
 ⎵h👍t        ⇒ haven't
@@ -363,6 +374,7 @@ ma👆g     ⇒ making
 mr👆      ⇒ mark
 t👆      ⇒ tment
 ta👆     ⇒ take
+ta👆g     ⇒ taking
 k👆      ⇒ ks
 
 l👆      ⇒ lk

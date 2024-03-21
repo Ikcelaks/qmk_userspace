@@ -10,7 +10,13 @@ CAPS_WORD_ENABLE = yes
 
 TOP_SYMBOLS=10
 
-include /home/qmk/qmk_userspace/keyboards/moonlander/keymaps/ikcelaks/sequence_transform/rules.mk
+# sequence_transform setup
+mkfile_dir := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
 
-# Automatically rebuild my sequence_transform rules from the latest config
-$(shell python3 /home/qmk/qmk_userspace/keyboards/moonlander/keymaps/ikcelaks/sequence_transform/generator/sequence_transform_data.py -q)
+all: st_build
+
+st_build:
+	python3 $(mkfile_dir)/sequence_transform/generator/sequence_transform_data.py
+
+include $(mkfile_dir)/sequence_transform/rules.mk
+# end sequence_transform setup

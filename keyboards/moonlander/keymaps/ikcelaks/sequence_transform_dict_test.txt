@@ -11,21 +11,35 @@
 # x👆 ⇒ xt
 # ex👆 ⇒ example
 
-,👆 ⇒ ,⎵and
+#,👆 ⇒ ,⎵and
 # s👆 ⇒ sk
 # .👆 ⇒ .
 # e👆a ⇒ ev
 # e👆a⎵ ⇒ even⎵
 
+# 👆      ⇒ n
+# qa      ⇒ qua
+# qi      ⇒ qui
+# qe      ⇒ que
+# qo      ⇒ quo
+# qa👆    ⇒ qa
+# qi👆    ⇒ qi
+# qe👆    ⇒ qe
+# qo👆    ⇒ qo
 
-qa      ⇒ qua
-qi      ⇒ qui
-qe      ⇒ que
-qo      ⇒ quo
-qa👆    ⇒ qa
-qi👆    ⇒ qi
-qe👆    ⇒ qe
-qo👆    ⇒ qo
+# ⎵qua👍         ⇒ ⎵quali
+# ⎵qa👍t         ⇒ ⎵quality
 
-⎵qua👍         ⇒ ⎵quali
-⎵qa👍t         ⇒ ⎵quality
+# ⎵c👍        ⇒ come
+# ⎵c👍t       ⇒ can't
+# ⎵c👍v       ⇒ cover
+# ⎵c👍o       ⇒ course
+# ⎵c👍a       ⇒ change
+# ⎵c👍ai      ⇒ changing
+
+⎵s👍        ⇒ some
+⎵s👍t       ⇒ somtime
+⎵d👍        ⇒ do
+⎵d👍t       ⇒ don't
+⎵d👍v       ⇒ develop
+⎵d👍vi      ⇒ developing

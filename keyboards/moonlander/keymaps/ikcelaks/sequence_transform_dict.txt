@@ -3,6 +3,8 @@
 
 👍       ⇒ ↻
 
+# ∂👆       ⇒ ∂.
+
 
 ⎵s👍q       ⇒ sequence
 ⎵s👍qo      ⇒ sequence_transform
@@ -10,16 +12,21 @@
 ⎵s👍q⎵o⎵    ⇒ sequence⎵transform⎵
 ⎵t👍o       ⇒ transform
 ⎵s👍l       ⇒ symbol
+
+
+⎵k👍        ⇒ know
 ⎵k👍r       ⇒ keypress
 ⎵k👍b       ⇒ key_buffer
 
 
 
+⎵qa      ⇒ qua
 qa      ⇒ qua
 qi      ⇒ qui
 qe      ⇒ que
 qo      ⇒ quo
 qa👆    ⇒ qa
+⎵qa👆    ⇒ qa
 qi👆    ⇒ qi
 qe👆    ⇒ qe
 qo👆    ⇒ qo
@@ -147,6 +154,10 @@ sim👆👆       ⇒ simultaneous
 
 k👍d        ⇒ knowledge
 k👍di       ⇒ knowledging
+k👍dd       ⇒ knowledged
+⎵k👍d        ⇒ knowledge
+⎵k👍di       ⇒ knowledging
+⎵k👍dd       ⇒ knowledged
 
 ⎵k👆        ⇒ keep
 
@@ -155,7 +166,7 @@ k👍di       ⇒ knowledging
 ⎵o👍r       ⇒ other
 ⎵o👍t       ⇒ often
 ⎵o👍b       ⇒ object
-⎵o👍s       ⇒ observe
+⎵o👍v       ⇒ observe
 ⎵o👍p       ⇒ opposite
 ⎵o👍g       ⇒ original
 ⎵o👍c       ⇒ occur
@@ -217,7 +228,7 @@ rs👍       ⇒ rst
 ⎵e👍c       ⇒ exercise
 ⎵e👍p       ⇒ expert
 ⎵e👍q       ⇒ equal
-⎵e👍qe      ⇒ equate
+⎵e👍qt      ⇒ equate
 
 ⎵w👍        ⇒ why
 ⎵w👍i       ⇒ which
@@ -234,6 +245,7 @@ rs👍       ⇒ rst
 ⎵w👍l       ⇒ we'll
 ⎵w👍v       ⇒ we've
 
+⎵w👆       ⇒ way
 ⎵w👆i       ⇒ will
 ⎵w👆e       ⇒ well
 ⎵w👆r       ⇒ write
@@ -257,6 +269,7 @@ rs👍       ⇒ rst
 ⎵a👆s      ⇒ absolute
 ⎵a👆l      ⇒ also
 
+⎵a👍         ⇒ and
 ⎵a👍r        ⇒ after
 ⎵a👍rt       ⇒ aren't
 ⎵a👍👆       ⇒ another
@@ -269,7 +282,7 @@ rs👍       ⇒ rst
 ⎵a👍y        ⇒ already
 ⎵a👍l        ⇒ alright
 
-⎵s👍        ⇒ some
+⎵s👍         ⇒ some
 ⎵s👍t        ⇒ sometimes
 ⎵s👍g        ⇒ something
 ⎵s👍h        ⇒ somehow
@@ -288,8 +301,9 @@ rs👍       ⇒ rst
 ⎵s👍i        ⇒ still
 ⎵s👍n        ⇒ since
 
+⎵s👆        ⇒ sk
 ⎵s👆c       ⇒ such
-
+⎵s👆l       ⇒ school
 s👆l        ⇒ school
 
 ⎵p👍        ⇒ pro
@@ -305,6 +319,10 @@ s👆l        ⇒ school
 ⎵p👍h       ⇒ psych
 ⎵p👍l       ⇒ place
 ⎵p👍t       ⇒ point
+
+⎵p👆        ⇒ py
+⎵p👆a       ⇒ probable
+⎵p👆ay      ⇒ probably
 
 ⎵d👍        ⇒ do
 ⎵d👍t       ⇒ don't
@@ -355,6 +373,7 @@ s👆l        ⇒ school
 ⎵g👍u        ⇒ guage
 ⎵g👍a        ⇒ guarantee
 
+⎵y👍       ⇒ you
 ⎵y👍e      ⇒ you're
 ⎵y👍l      ⇒ you'll
 ⎵y👍v      ⇒ you've

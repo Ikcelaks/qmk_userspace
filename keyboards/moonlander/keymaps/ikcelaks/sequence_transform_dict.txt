@@ -3,7 +3,8 @@
 
 👍       ⇒ ↻
 
-# ∂👆       ⇒ ∂.
+∂👆       ⇒ ∂.
+∂👍       ⇒ ∂↻
 
 
 ⎵s👍q       ⇒ sequence
@@ -41,8 +42,6 @@ d★d    ⇒ developed
 
 judge👆     ⇒ judgment
 
-the👍       ⇒ theory
-
 sim👆       ⇒ simultaneously
 sim👆👆       ⇒ simultaneous
 
@@ -63,6 +62,7 @@ sim👆👆       ⇒ simultaneous
 
 
 ⎵c👍        ⇒ come
+⎵c👍i       ⇒ coming
 ⎵c👍t       ⇒ can't
 ⎵c👍v       ⇒ cover
 ⎵c👍o       ⇒ course
@@ -136,6 +136,10 @@ sim👆👆       ⇒ simultaneous
 ⎵👆a⎵     ⇒ than⎵
 ⎵👆ak     ⇒ thank
 ⎵👆o⎵     ⇒ those⎵
+⎵👆ou     ⇒ though
+⎵👆ot     ⇒ thought
+⎵👆or     ⇒ thorough
+⎵👆👍     ⇒ through
 
 ⎵t👍        ⇒ time
 ⎵t👍g       ⇒ though
@@ -245,7 +249,7 @@ rs👍       ⇒ rst
 ⎵w👍l       ⇒ we'll
 ⎵w👍v       ⇒ we've
 
-⎵w👆       ⇒ way
+⎵w👆        ⇒ way
 ⎵w👆i       ⇒ will
 ⎵w👆e       ⇒ well
 ⎵w👆r       ⇒ write
@@ -257,6 +261,7 @@ rs👍       ⇒ rst
 ⎵w👆to      ⇒ without
 
 ⎵v👍        ⇒ view
+⎵v👍g       ⇒ viewing
 ⎵v👍r       ⇒ viewer
 ⎵v👍d       ⇒ viewed
 ⎵v👍i       ⇒ vision
@@ -357,12 +362,14 @@ s👆l        ⇒ school
 ⎵h👍ed       ⇒ he'd
 ⎵h👍r        ⇒ here
 ⎵h👍s        ⇒ house
+⎵h👍st       ⇒ hasn't
 ⎵h👍t        ⇒ haven't
 ⎵h👍l        ⇒ help
 ⎵h👍d        ⇒ had
 ⎵h👍dt       ⇒ hadn't
 
 ⎵g👍         ⇒ give
+⎵g👍i        ⇒ giving
 ⎵g👍v        ⇒ govern
 ⎵g👍e        ⇒ general
 ⎵g👍vd       ⇒ governed
@@ -453,9 +460,9 @@ j👍      ⇒ join
 c👍      ⇒ ck
 n👍      ⇒ nf
 h👍      ⇒ hn
-,👍      ⇒ ,⎵and
-.👍      ⇒ .⎵⇑
-?👍      ⇒ ?⎵⇑
-:👍      ⇒ :⎵⇑
-;👍      ⇒ ;⎵⇑
-!👍      ⇒ !⎵⇑
+‥👍      ⇒ ‥⎵and
+‼👍      ⇒ ‼⎵⇑
+# ?👍      ⇒ ?⎵⇑
+# :👍      ⇒ :⎵⇑
+# ;👍      ⇒ ;⎵⇑
+# !👍      ⇒ !⎵⇑

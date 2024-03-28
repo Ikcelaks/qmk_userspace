@@ -6,6 +6,7 @@
 ∂👆       ⇒ ∂.
 ∂👍       ⇒ ∂↻
 
+gh👍   ⇒ ghly
 
 ⎵s👍q       ⇒ sequence
 ⎵s👍qo      ⇒ sequence_transform
@@ -122,6 +123,7 @@ sim👆👆       ⇒ simultaneous
 ⎵m👍r       ⇒ mother
 
 ⎵👆      ⇒ the
+⎵👆👆     ⇒ then
 ⎵👆r⎵     ⇒ there⎵
 ⎵👆rs      ⇒ there's
 ⎵👆i      ⇒ their
@@ -250,6 +252,7 @@ rs👍       ⇒ rst
 ⎵w👍v       ⇒ we've
 
 ⎵w👆        ⇒ way
+⎵w👆👆      ⇒ wayn
 ⎵w👆i       ⇒ will
 ⎵w👆e       ⇒ well
 ⎵w👆r       ⇒ write
@@ -326,6 +329,7 @@ s👆l        ⇒ school
 ⎵p👍t       ⇒ point
 
 ⎵p👆        ⇒ py
+⎵p👆👆      ⇒ pyn
 ⎵p👆a       ⇒ probable
 ⎵p👆ay      ⇒ probably
 
@@ -391,6 +395,7 @@ s👆l        ⇒ school
 ⎵l👆      ⇒ little
 
 v👆      ⇒ ver
+v👆👆    ⇒ vern
 s👆      ⇒ sk
 x👆      ⇒ xes
 
@@ -400,6 +405,7 @@ ma👆g     ⇒ making
 mr👆      ⇒ mark
 t👆      ⇒ tment
 ta👆     ⇒ take
+ta👆👆     ⇒ taken
 ta👆g     ⇒ taking
 k👆      ⇒ ks
 
@@ -409,6 +415,7 @@ blivi👆   ⇒ blivion
 vili👆   ⇒ vilion
 lli👆   ⇒ llion
 r👆      ⇒ rl
+r👆👆    ⇒ rln
 
 j👆      ⇒ just
 j👆👆      ⇒ justment
@@ -418,14 +425,19 @@ j👆👆      ⇒ justment
 ⎵j👍dta       ⇒ judgmental
 
 c👆      ⇒ cy
+c👆👆      ⇒ cyn
 p👆      ⇒ py
+p👆👆      ⇒ pyn
 pl👆      ⇒ ply
 pa👆      ⇒ page
 d👆      ⇒ dy
+d👆👆      ⇒ dyn
 da👆      ⇒ day
 dr👆      ⇒ dry
 y👆      ⇒ yp
+y👆👆      ⇒ ypn
 g👆      ⇒ gy
+g👆👆    ⇒ gyn
 w👆      ⇒ way
 q👆      ⇒ quest
 q👆👆      ⇒ question
@@ -434,12 +446,13 @@ q👆d      ⇒ quested
 b👆      ⇒ before
 f👆      ⇒ first
 z👆      ⇒ zone
-👆👆     ⇒ 👆n
 n👆      ⇒ nion
 h👆      ⇒ however
 
 u👆      ⇒ ue
+u👆👆     ⇒ uen
 e👆      ⇒ eu
+e👆👆      ⇒ eun
 
 o👆      ⇒ oa
 

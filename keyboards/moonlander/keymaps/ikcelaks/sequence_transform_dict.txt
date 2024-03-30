@@ -1,10 +1,14 @@
 # 👆👍★✪
 # ↻⇑
 
-👍       ⇒ ↻
+#👍       ⇒ ↻
+∀👍       ⇒ ∀⑴
 
 ∂👆       ⇒ ∂.
-∂👍       ⇒ ∂↻
+∂👍       ⇒ ∂⑴
+
+∂∂👍       ⇒ ∂∂⑴
+∂∂👍d       ⇒ 2024-03-⑶⑵
 
 gh👍   ⇒ ghly
 
@@ -124,7 +128,7 @@ sim👆👆       ⇒ simultaneous
 
 ⎵👆      ⇒ the
 ⎵👆👆     ⇒ then
-⎵👆r⎵     ⇒ there⎵
+⎵👆r⎵     ⇒ there◯
 ⎵👆rs      ⇒ there's
 ⎵👆i      ⇒ their
 ⎵👆g      ⇒ thing
@@ -132,18 +136,19 @@ sim👆👆       ⇒ simultaneous
 ⎵👆yr      ⇒ they're
 ⎵👆yl      ⇒ they'll
 ⎵👆d      ⇒ they'd
-⎵👆s⎵     ⇒ this⎵
+⎵👆s⎵     ⇒ this◯
 ⎵👆t      ⇒ that
 ⎵👆ts     ⇒ that's
-⎵👆a⎵     ⇒ than⎵
+⎵👆a⎵     ⇒ than◯
 ⎵👆ak     ⇒ thank
-⎵👆o⎵     ⇒ those⎵
+⎵👆o⎵     ⇒ those◯
 ⎵👆ou     ⇒ though
 ⎵👆ot     ⇒ thought
 ⎵👆or     ⇒ thorough
 ⎵👆👍     ⇒ through
 
-⎵t👍        ⇒ time
+⎵t👍        ⇒ t
+⎵t👍⎵       ⇒ time◯
 ⎵t👍g       ⇒ though
 ⎵t👍t       ⇒ thought
 ⎵t👍r       ⇒ through
@@ -290,7 +295,8 @@ rs👍       ⇒ rst
 ⎵a👍y        ⇒ already
 ⎵a👍l        ⇒ alright
 
-⎵s👍         ⇒ some
+⎵s👍         ⇒ s
+⎵s👍⎵        ⇒ some◯
 ⎵s👍t        ⇒ sometimes
 ⎵s👍g        ⇒ something
 ⎵s👍h        ⇒ somehow
@@ -302,7 +308,7 @@ rs👍       ⇒ rst
 ⎵s👍m        ⇒ small
 ⎵s👍p        ⇒ special
 ⎵s👍a        ⇒ state
-⎵s👍e        ⇒ seem
+⎵s👍e        ⇒ she
 ⎵s👍es       ⇒ she's
 ⎵s👍ed       ⇒ she'd
 ⎵s👍el       ⇒ she'll
@@ -455,6 +461,7 @@ e👆      ⇒ eu
 e👆👆      ⇒ eun
 
 o👆      ⇒ oa
+a👆      ⇒ ao
 
 ,👆      ⇒ ,⎵but
 i👆      ⇒ ion

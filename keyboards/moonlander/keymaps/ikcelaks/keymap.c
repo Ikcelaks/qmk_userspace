@@ -137,7 +137,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 }
 
 void post_process_record_user(uint16_t keycode, keyrecord_t *record) {
-    post_process_sequence_transform();
+    post_process_sequence_transform();  // Add this line
 }
 
 // extern rgb_config_t rgb_matrix_config;

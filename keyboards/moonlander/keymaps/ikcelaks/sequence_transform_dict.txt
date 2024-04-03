@@ -5,10 +5,11 @@
 ∀👍       ⇒ ∀⑴
 
 ∂👆       ⇒ ∂.
+∂n       ⇒ ∂n
 ∂👍       ⇒ ∂⑴
 
 ∂∂👍       ⇒ ∂∂⑴
-∂∂👍d       ⇒ 2024-03-⑶⑵
+∂∂👍d       ⇒ 2024-04-⑶⑵
 
 gh👍   ⇒ ghly
 
@@ -36,6 +37,7 @@ qa👆    ⇒ qa
 qi👆    ⇒ qi
 qe👆    ⇒ qe
 qo👆    ⇒ qo
+qm👆    ⇒ qmk
 
 ⎵qua👆         ⇒ quali
 ⎵qa👆t         ⇒ quality
@@ -68,6 +70,7 @@ sim👆👆       ⇒ simultaneous
 
 ⎵c👍        ⇒ come
 ⎵c👍i       ⇒ coming
+⎵c👍r       ⇒ crowd
 ⎵c👍t       ⇒ can't
 ⎵c👍v       ⇒ cover
 ⎵c👍o       ⇒ course
@@ -126,26 +129,36 @@ sim👆👆       ⇒ simultaneous
 ⎵m👍n       ⇒ mean
 ⎵m👍r       ⇒ mother
 
-⎵👆      ⇒ the
-⎵👆👆     ⇒ then
-⎵👆r⎵     ⇒ there◯
-⎵👆rs      ⇒ there's
-⎵👆i      ⇒ their
-⎵👆g      ⇒ thing
-⎵👆k      ⇒ think
-⎵👆yr      ⇒ they're
-⎵👆yl      ⇒ they'll
-⎵👆d      ⇒ they'd
-⎵👆s⎵     ⇒ this◯
-⎵👆t      ⇒ that
-⎵👆ts     ⇒ that's
-⎵👆a⎵     ⇒ than◯
-⎵👆ak     ⇒ thank
-⎵👆o⎵     ⇒ those◯
-⎵👆ou     ⇒ though
-⎵👆ot     ⇒ thought
-⎵👆or     ⇒ thorough
-⎵👆👍     ⇒ through
+⎵n       ⇒ th
+⎵n∀        ⇒ the◯
+⎵ne      ⇒ the
+⎵n👆     ⇒ then
+⎵nr     ⇒ th
+⎵nrm     ⇒ therm
+⎵nr∀     ⇒ thr◯
+⎵nr⎵     ⇒ there◯
+⎵nrs      ⇒ there's
+⎵ni      ⇒ their
+⎵nin      ⇒ thin
+⎵ng      ⇒ thing
+⎵nk      ⇒ think
+⎵nyr      ⇒ they're
+⎵nyl      ⇒ they'll
+⎵nd      ⇒ they'd
+⎵ns      ⇒ th
+⎵ns⎵     ⇒ this◯
+⎵nse     ⇒ these
+⎵nt      ⇒ that
+⎵nts     ⇒ that's
+⎵na      ⇒ tha
+⎵na⎵     ⇒ than◯
+⎵nak     ⇒ thank
+⎵no      ⇒ tho
+⎵no⎵     ⇒ those◯
+⎵nou     ⇒ though
+⎵not     ⇒ thought
+⎵nor     ⇒ thorough
+⎵n👍     ⇒ through
 
 ⎵t👍        ⇒ t
 ⎵t👍⎵       ⇒ time◯
@@ -219,14 +232,15 @@ rs👍       ⇒ rst
 ⎵f👍c        ⇒ face
 ⎵f👍t        ⇒ fact
 
-⎵n👍         ⇒ not
-⎵n👍v        ⇒ never
-⎵n👍t        ⇒ nation
-⎵n👍d        ⇒ need
-⎵n👍w        ⇒ nowhere
-⎵n👍g        ⇒ nothing
-⎵n👍m        ⇒ number
-⎵n👍r        ⇒ neighbor
+⎵👆           ⇒ n
+⎵👆👍         ⇒ not
+⎵👆👍v        ⇒ never
+⎵👆👍t        ⇒ nation
+⎵👆👍d        ⇒ need
+⎵👆👍w        ⇒ nowhere
+⎵👆👍g        ⇒ nothing
+⎵👆👍m        ⇒ number
+⎵👆👍r        ⇒ neighbor
 
 ⎵e👍        ⇒ each
 ⎵e👍g       ⇒ enough
@@ -296,11 +310,12 @@ rs👍       ⇒ rst
 ⎵a👍l        ⇒ alright
 
 ⎵s👍         ⇒ s
-⎵s👍⎵        ⇒ some◯
+⎵s👍∀        ⇒ some◯
 ⎵s👍t        ⇒ sometimes
 ⎵s👍g        ⇒ something
 ⎵s👍h        ⇒ somehow
 ⎵s👍w        ⇒ somewhere
+⎵s👍o        ⇒ someone
 ⎵s👍y        ⇒ system
 ⎵s👍d        ⇒ sound
 ⎵s👍c        ⇒ science

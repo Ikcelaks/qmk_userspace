@@ -30,16 +30,22 @@
 # ⎵qua👍         ⇒ ⎵quali
 # ⎵qa👍t         ⇒ ⎵quality
 
-# ⎵c👍        ⇒ come
+⎵c👍        ⇒ come
 # ⎵c👍t       ⇒ can't
 # ⎵c👍v       ⇒ cover
 # ⎵c👍o       ⇒ course
 # ⎵c👍a       ⇒ change
 # ⎵c👍ai      ⇒ changing
 
-⎵s👍        ⇒ some
-⎵s👍t       ⇒ somtime
-⎵d👍        ⇒ do
-⎵d👍t       ⇒ don't
-⎵d👍v       ⇒ develop
-⎵d👍vi      ⇒ developing
+# ∂👆       ⇒ ∂.
+# ∂∂👍d       ⇒ 2024-03-⑶⑵
+# 28👆        ⇒ 28today
+# ⎵s👍        ⇒ s
+# ⎵s👍⎵       ⇒ some⎵
+# ⎵s👍⎵c       ⇒ science
+# ⎵d👍        ⇒ do
+# ⎵d👍t       ⇒ don't
+# ⎵d👍v       ⇒ develop
+# ⎵d👍vi      ⇒ developing
+
+

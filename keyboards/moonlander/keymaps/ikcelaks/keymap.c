@@ -67,7 +67,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_DOT,         KC_1,           KC_2,           KC_3,           KC_4,           KC_5,           KC_EQL,                                         KC_ASTR,        KC_6,           KC_7,           KC_8,           KC_9,           KC_0,           KC_BSPC,
         KC_TAB,         KC_V,           KC_M,           KC_L,           KC_C,           KC_P,           KC_DQUO,                                        KC_PIPE,        KC_B,           US_MAG1,        KC_U,           KC_O,           KC_COMM,        KC_BSLS,
         LCTL(KC_BSPC),  KC_S,           KC_T,           KC_R,           KC_D,           KC_Y,           KC_Q,                                           KC_DLR,         KC_F,           KC_N,           KC_E,           KC_A,           KC_I,           C_RCTL_QUOT,
-        KC_LSFT,        KC_X,           KC_K,           KC_J,           KC_G,           KC_W,                                                                                   KC_Z,           KC_H,           KC_MINS,        KC_QUES,        KC_DOT,         C_RSFT_ENT,
+        OSM(MOD_LSFT),   KC_X,           KC_K,           KC_J,           KC_G,           KC_W,                                                                                   KC_Z,           KC_H,           KC_MINS,        KC_QUES,        KC_DOT,         C_RSFT_ENT,
         KC_GRV,         KC_LCTL,        KC_LGUI,        KC_ESC,         TT(NAVI),                       C_LALT_ENT,                                     C_GUI_ESC,                     C_S_T(KC_SLSH),  KC_LALT,        KC_LBRC,        TT(MDIA),       TT(SYMB),
                                                                         KC_SPC,         KC_BSPC,        KC_DEL,                                         OSL(SYMB),      OSM(MOD_LSFT),      US_MAG2
     ),
@@ -150,5 +150,5 @@ void keyboard_post_init_user(void)
 
 void matrix_scan_user(void)
 {
-    sequence_transform_task();
+    sequence_transform_task();  // Add this line
 }

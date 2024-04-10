@@ -202,6 +202,8 @@ k👍dd       ⇒ knowledged
 ‸o👍f       ⇒ ‸offer
 ‸o👍d       ⇒ ‸order
 ‸o👍di      ⇒ ‸ordering
+‸o👍s       ⇒ ‸obvious
+‸o👍sy      ⇒ ‸obviously
 
 ou👍       ⇒ ough
 au👍       ⇒ augh
@@ -211,16 +213,20 @@ rs👍       ⇒ rst
 
 ‸b👍        ⇒ ‸be
 ‸b👍o        ⇒ ‸both
-‸b👍s        ⇒ ‸because
+‸b👍a        ⇒ ‸because
 ‸b👍c        ⇒ ‸become
 ‸b👍t        ⇒ ‸between
 ‸b👍k        ⇒ ‸back
 ‸b👍ka       ⇒ ‸backspace
 ‸b👍g        ⇒ ‸begin
 ‸b👍l        ⇒ ‸believe
-‸b👍e        ⇒ ‸been
+‸b👍n        ⇒ ‸been
+‸b👍e        ⇒ ‸best
 ‸b👍r        ⇒ ‸brother
 ‸b👍u        ⇒ ‸buffer
+‸bu👍        ⇒ ‸business
+
+‸b👆         ⇒ ‸before
 
 ‸f👍         ⇒ ‸from
 ‸f👍s        ⇒ ‸first
@@ -232,8 +238,14 @@ rs👍       ⇒ rst
 ‸f👍e        ⇒ ‸feel
 ‸f👍c        ⇒ ‸face
 ‸f👍t        ⇒ ‸fact
+‸f👍i        ⇒ ‸fix
+‸f👍a        ⇒ ‸fax
+‸f👍o        ⇒ ‸fox
 
 f👆         ⇒ for
+
+fji          ⇒ fix
+fjig         ⇒ fixing
 
 ‸👆           ⇒ ‸n
 ‸👆👍         ⇒ ‸not
@@ -258,12 +270,14 @@ f👆         ⇒ for
 ‸e👍q       ⇒ ‸equal
 ‸e👍qt      ⇒ ‸equate
 
-‸👍        ⇒ ‸wh
+‸👍        ⇒ ‸w
 ‸👍∀       ⇒ ‸why◯
 ‸👍i       ⇒ ‸whi
 ‸👍i‸       ⇒ ‸which◯
 ‸👍e       ⇒ ‸whe
 ‸👍a       ⇒ ‸wha
+‸👍a‸       ⇒ ‸what◯
+‸👍as      ⇒ ‸what's
 ‸👍u       ⇒ ‸whu
 ‸👍u‸       ⇒ ‸would◯
 ‸👍ut      ⇒ ‸wouldn't
@@ -272,25 +286,53 @@ f👆         ⇒ for
 ‸👍n       ⇒ ‸when
 ‸👍h       ⇒ ‸while
 ‸👍r       ⇒ ‸where
-‸👍t       ⇒ ‸what
-‸👍ts      ⇒ ‸what's
 ‸👍o       ⇒ ‸who
+‸👍o👆     ⇒ ‸whose
 ‸👍os      ⇒ ‸who's
+‸👍od      ⇒ ‸who'd
+‸👍oll     ⇒ ‸who'll
 ‸👍l       ⇒ ‸whole
+‸👍t       ⇒ ‸with
+‸👍td      ⇒ ‸withdraw
+‸👍to      ⇒ ‸without
+‸👍th      ⇒ ‸withhold
+‸👍s       ⇒ ‸was
+‸👍st      ⇒ ‸wasn't
+‸👍-       ⇒ ‸w
+‸👍-‸       ⇒ ‸we◯
+‸👍-d       ⇒ ‸we'd
+‸👍-r       ⇒ ‸we're
+‸👍-l       ⇒ ‸we'll
+‸👍-v       ⇒ ‸we've
+‸👍-i       ⇒ ‸will
+‸👍-id      ⇒ ‸willed
+‸👍-ig      ⇒ ‸willing
+‸👍-k       ⇒ ‸work
+‸👍-kd      ⇒ ‸worked
+‸👍-kg      ⇒ ‸working
+‸👍-a       ⇒ ‸want
+‸👍-ag      ⇒ ‸wanting
+‸👍-ad      ⇒ ‸wanted
+‸👍-t       ⇒ ‸won't
+‸👍?        ⇒ ‸w
+‸👍?r       ⇒ ‸were
+‸👍?rt      ⇒ ‸weren't
+‸👍?l       ⇒ ‸well
+‸👍?ld      ⇒ ‸world
+‸👍?e       ⇒ ‸went
+‸👍?t       ⇒ ‸write
+‸👍?tn      ⇒ ‸written
+‸👍?tg      ⇒ ‸writing
+‸👍?te      ⇒ ‸wrote
+‸👍?d       ⇒ ‸word
+‸👍?dk      ⇒ ‸wordbreak
+‸👍?n       ⇒ ‸win
 
 ‸w👍        ⇒ ‸w
-‸w👍s       ⇒ ‸was
-‸w👍st      ⇒ ‸wasn't
-‸w👍t       ⇒ ‸won't
 ‸w👍o       ⇒ ‸world
-‸w👍e       ⇒ ‸were
-‸w👍i       ⇒ ‸will
-‸w👍k       ⇒ ‸work
-‸w👍r       ⇒ ‸we're
+‸w👍r       ⇒ ‸were
 ‸w👍rt      ⇒ ‸weren't
-‸w👍d       ⇒ ‸we'd
-‸w👍l       ⇒ ‸we'll
-‸w👍v       ⇒ ‸we've
+‸w👍e       ⇒ ‸well
 
 ‸w👆        ⇒ ‸way
 ‸w👆👆      ⇒ ‸wayn
@@ -487,7 +529,8 @@ q👆      ⇒ quest
 q👆👆      ⇒ question
 q👆d      ⇒ quested
 
-b👆      ⇒ before
+b👆      ⇒ bs
+ba👆      ⇒ bas
 z👆      ⇒ zone
 n👆      ⇒ nion
 h👆      ⇒ however

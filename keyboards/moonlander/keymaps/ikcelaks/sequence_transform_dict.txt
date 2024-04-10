@@ -52,6 +52,10 @@ judge👆     ⇒ judgment
 sim👆       ⇒ simultaneously
 sim👆👆       ⇒ simultaneous
 
+‸ie         ⇒ ‸if
+‸ie👆       ⇒ ‸ie
+‸if         ⇒ ‸ie
+
 ‸i👍        ⇒ ‸i
 ‸i👍‸       ⇒ ‸I◯
 ‸i👍m       ⇒ ‸I'm
@@ -75,9 +79,11 @@ sim👆👆       ⇒ simultaneous
 ‸c👍t       ⇒ ‸can't
 ‸c👍v       ⇒ ‸cover
 ‸c👍o       ⇒ ‸course
+‸c👍oi      ⇒ ‸coursing
 ‸c👍a       ⇒ ‸change
 ‸c👍ai      ⇒ ‸changing
 ‸c👍e       ⇒ ‸cause
+‸c👍ei      ⇒ ‸causing
 ‸c👍n       ⇒ ‸consider
 ‸c👍ni      ⇒ ‸considering
 ‸c👍m       ⇒ ‸complete
@@ -120,6 +126,7 @@ sim👆👆       ⇒ simultaneous
 ‸l👍t       ⇒ ‸last
 ‸l👍n       ⇒ ‸line
 ‸l👍v       ⇒ ‸leave
+‸l👍vi      ⇒ ‸leaving
 
 ‸m👍        ⇒ ‸make
 ‸m👍g       ⇒ ‸making
@@ -129,6 +136,7 @@ sim👆👆       ⇒ simultaneous
 ‸m👍u       ⇒ ‸must
 ‸m👍c       ⇒ ‸much
 ‸m👍v       ⇒ ‸move
+‸m👍vi      ⇒ ‸moving
 ‸m👍n       ⇒ ‸mean
 ‸m👍r       ⇒ ‸mother
 
@@ -190,6 +198,13 @@ k👍dd       ⇒ knowledged
 
 ‸k👆        ⇒ ‸keep
 
+‸oe         ⇒ ‸of
+‸oe👆       ⇒ ‸oe
+‸oem        ⇒ ‸oem
+‸oet        ⇒ ‸often
+‸oer        ⇒ ‸offer
+‸of         ⇒ ‸oe
+
 ‸o👍        ⇒ ‸one
 ‸o👍x       ⇒ ‸oxygen
 ‸o👍r       ⇒ ‸other
@@ -215,11 +230,14 @@ rs👍       ⇒ rst
 ‸b👍o        ⇒ ‸both
 ‸b👍a        ⇒ ‸because
 ‸b👍c        ⇒ ‸become
+‸b👍ci       ⇒ ‸becoming
 ‸b👍t        ⇒ ‸between
 ‸b👍k        ⇒ ‸back
 ‸b👍ka       ⇒ ‸backspace
+‸b👍kag      ⇒ ‸backspacing
 ‸b👍g        ⇒ ‸begin
 ‸b👍l        ⇒ ‸believe
+‸b👍li       ⇒ ‸believing
 ‸b👍n        ⇒ ‸been
 ‸b👍e        ⇒ ‸best
 ‸b👍r        ⇒ ‸brother
@@ -266,6 +284,7 @@ fjig         ⇒ fixing
 ‸e👍r       ⇒ ‸early
 ‸e👍x       ⇒ ‸example
 ‸e👍c       ⇒ ‸exercise
+‸e👍ci      ⇒ ‸exercising
 ‸e👍p       ⇒ ‸expert
 ‸e👍q       ⇒ ‸equal
 ‸e👍qt      ⇒ ‸equate
@@ -369,6 +388,7 @@ fjig         ⇒ fixing
 ‸a👍t        ⇒ ‸against
 ‸a👍s        ⇒ ‸answer
 ‸a👍p        ⇒ ‸appear
+‸a👍pi       ⇒ ‸appearing
 ‸a👍w        ⇒ ‸always
 ‸a👍y        ⇒ ‸already
 ‸a👍l        ⇒ ‸alright
@@ -378,7 +398,8 @@ fjig         ⇒ fixing
 ‸s👍t        ⇒ ‸sometimes
 ‸s👍g        ⇒ ‸something
 ‸s👍h        ⇒ ‸somehow
-‸s👍w        ⇒ ‸somewhere
+‸s👍r        ⇒ ‸somewhere
+‸s👍w        ⇒ ‸somewhat
 ‸s👍o        ⇒ ‸someone
 ‸s👍y        ⇒ ‸system
 ‸s👍d        ⇒ ‸sound
@@ -426,12 +447,14 @@ s👆l        ⇒ school
 ‸d👍s       ⇒ ‸does
 ‸d👍st      ⇒ ‸doesn't
 ‸d👍f       ⇒ ‸differ
+‸d👍fc      ⇒ ‸difference
 ‸d👍ft      ⇒ ‸different
 ‸d👍u       ⇒ ‸difficult
 ‸d👍r       ⇒ ‸during
 ‸d👍n       ⇒ ‸down
 ‸d👍d       ⇒ ‸decide
 ‸d👍l       ⇒ ‸develop
+‸d👍li       ⇒ ‸developing
 ‸d👍lm       ⇒ ‸development
 ‸d👍ld       ⇒ ‸developed
 ‸d👍l👆      ⇒ ‸developer
@@ -468,6 +491,7 @@ s👆l        ⇒ school
 ‸g👍t        ⇒ ‸great
 ‸g👍o        ⇒ ‸good
 ‸g👍u        ⇒ ‸guage
+‸g👍ug       ⇒ ‸guaging
 ‸g👍a        ⇒ ‸guarantee
 
 ‸y👍       ⇒ ‸you
@@ -507,6 +531,7 @@ j👆      ⇒ just
 j👆👆      ⇒ justment
 ‸j👍       ⇒ ‸join
 ‸j👍d       ⇒ ‸judge
+‸j👍di       ⇒ ‸judging
 ‸j👍dt       ⇒ ‸judgment
 ‸j👍dta       ⇒ ‸judgmental
 

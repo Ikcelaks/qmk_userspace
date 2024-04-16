@@ -148,6 +148,8 @@ sim👆👆       ⇒ simultaneous
 ‸nrm     ⇒ ‸therm
 ‸nr∀     ⇒ ‸thr◯
 ‸nr‸      ⇒ ‸there◯
+‸nrn      ⇒ ‸therein
+‸nrf      ⇒ ‸therefore
 ‸nrs      ⇒ ‸there's
 ‸ni       ⇒ ‸thi
 ‸ni‸      ⇒ ‸their◯
@@ -165,9 +167,10 @@ sim👆👆       ⇒ simultaneous
 ‸na       ⇒ ‸tha
 ‸na‸      ⇒ ‸than◯
 ‸nak      ⇒ ‸thank
+‸nb       ⇒ ‸thanks
 ‸no       ⇒ ‸tho
 ‸no‸      ⇒ ‸those◯
-‸nou      ⇒ ‸though
+‸nog      ⇒ ‸though
 ‸not      ⇒ ‸thought
 ‸nor      ⇒ ‸thorough
 ‸nu       ⇒ ‸thu
@@ -175,6 +178,7 @@ sim👆👆       ⇒ simultaneous
 
 ‸t👍        ⇒ ‸t
 ‸t👍‸       ⇒ ‸time◯
+‸t👍i       ⇒ ‸timing
 ‸t👍g       ⇒ ‸though
 ‸t👍t       ⇒ ‸thought
 ‸t👍r       ⇒ ‸through
@@ -203,6 +207,11 @@ k👍dd       ⇒ knowledged
 ‸oem        ⇒ ‸oem
 ‸oet        ⇒ ‸often
 ‸oer        ⇒ ‸offer
+‸oec        ⇒ ‸office
+‸oecl       ⇒ ‸official
+‸oecl👆     ⇒ ‸officially
+‸oel        ⇒ ‸offline
+‸oes        ⇒ ‸offset
 ‸of         ⇒ ‸oe
 
 ‸o👍        ⇒ ‸one
@@ -247,14 +256,17 @@ rs👍       ⇒ rst
 ‸b👆         ⇒ ‸before
 
 ‸f👍         ⇒ ‸from
+‸f👍j        ⇒ ‸few
 ‸f👍s        ⇒ ‸first
 ‸f👍l        ⇒ ‸follow
 ‸f👍l👆      ⇒ ‸follower
 ‸f👍ld       ⇒ ‸followed
+‸f👍li       ⇒ ‸following
 ‸f👍r        ⇒ ‸friend
 ‸f👍d        ⇒ ‸find
 ‸f👍e        ⇒ ‸feel
 ‸f👍c        ⇒ ‸face
+‸f👍ci       ⇒ ‸facing
 ‸f👍t        ⇒ ‸fact
 ‸f👍i        ⇒ ‸fix
 ‸f👍a        ⇒ ‸fax
@@ -262,13 +274,12 @@ rs👍       ⇒ rst
 
 f👆         ⇒ for
 
-fji          ⇒ fix
-fjig         ⇒ fixing
-
 ‸👆           ⇒ ‸n
-‸👆👍         ⇒ ‸not
+‸👆👍         ⇒ ‸n
+‸👆👍‸        ⇒ ‸now◯
 ‸👆👍v        ⇒ ‸never
 ‸👆👍t        ⇒ ‸nation
+‸👆👍x        ⇒ ‸next
 ‸👆👍d        ⇒ ‸need
 ‸👆👍w        ⇒ ‸nowhere
 ‸👆👍g        ⇒ ‸nothing
@@ -277,17 +288,25 @@ fjig         ⇒ fixing
 
 ‸e👍        ⇒ ‸each
 ‸e👍g       ⇒ ‸enough
-‸e👍n       ⇒ ‸even
+‸e👍v       ⇒ ‸even
 ‸e👍y       ⇒ ‸every
 ‸e👍ym      ⇒ ‸everytime
 ‸e👍yt      ⇒ ‸everything
+‸e👍yr      ⇒ ‸everywhere
 ‸e👍r       ⇒ ‸early
-‸e👍x       ⇒ ‸example
 ‸e👍c       ⇒ ‸exercise
 ‸e👍ci      ⇒ ‸exercising
 ‸e👍p       ⇒ ‸expert
 ‸e👍q       ⇒ ‸equal
 ‸e👍qt      ⇒ ‸equate
+‸e👍qn      ⇒ ‸equation
+‸e👍x       ⇒ ‸example
+‸e👍x👍     ⇒ ‸examples
+‸e👍xt      ⇒ ‸expert
+‸e👍xt👍    ⇒ ‸experts
+‸e👍xn      ⇒ ‸explain
+‸e👍xo      ⇒ ‸export
+‸e👍xo👍    ⇒ ‸exports
 
 ‸👍        ⇒ ‸w
 ‸👍∀       ⇒ ‸why◯
@@ -323,29 +342,30 @@ fjig         ⇒ fixing
 ‸👍-r       ⇒ ‸we're
 ‸👍-l       ⇒ ‸we'll
 ‸👍-v       ⇒ ‸we've
-‸👍-i       ⇒ ‸will
-‸👍-id      ⇒ ‸willed
-‸👍-ig      ⇒ ‸willing
-‸👍-k       ⇒ ‸work
-‸👍-kd      ⇒ ‸worked
-‸👍-kg      ⇒ ‸working
-‸👍-a       ⇒ ‸want
-‸👍-ag      ⇒ ‸wanting
-‸👍-ad      ⇒ ‸wanted
 ‸👍-t       ⇒ ‸won't
-‸👍?        ⇒ ‸w
-‸👍?r       ⇒ ‸were
-‸👍?rt      ⇒ ‸weren't
-‸👍?l       ⇒ ‸well
-‸👍?ld      ⇒ ‸world
-‸👍?e       ⇒ ‸went
-‸👍?t       ⇒ ‸write
-‸👍?tn      ⇒ ‸written
-‸👍?tg      ⇒ ‸writing
-‸👍?te      ⇒ ‸wrote
-‸👍?d       ⇒ ‸word
-‸👍?dk      ⇒ ‸wordbreak
-‸👍?n       ⇒ ‸win
+‸👍d        ⇒ ‸w
+‸👍d‸       ⇒ ‸we◯
+‸👍dr       ⇒ ‸were
+‸👍drt      ⇒ ‸weren't
+‸👍dl       ⇒ ‸well
+‸👍do       ⇒ ‸world
+‸👍de       ⇒ ‸went
+‸👍dt       ⇒ ‸write
+‸👍dtn      ⇒ ‸written
+‸👍dti      ⇒ ‸writing
+‸👍dte      ⇒ ‸wrote
+‸👍dd       ⇒ ‸word
+‸👍ddk      ⇒ ‸wordbreak
+‸👍dn       ⇒ ‸win
+‸👍di       ⇒ ‸will
+‸👍did      ⇒ ‸willed
+‸👍di👍     ⇒ ‸willing
+‸👍dk       ⇒ ‸work
+‸👍dkd      ⇒ ‸worked
+‸👍dki      ⇒ ‸working
+‸👍da       ⇒ ‸want
+‸👍dai      ⇒ ‸wanting
+‸👍dad      ⇒ ‸wanted
 
 ‸w👍        ⇒ ‸w
 ‸w👍o       ⇒ ‸world
@@ -372,7 +392,14 @@ fjig         ⇒ fixing
 ‸v👍i       ⇒ ‸vision
 ‸v👍n       ⇒ ‸version
 
-‸a👆       ⇒ ‸abo
+‸a👆       ⇒ ‸a
+‸a👆‸       ⇒ ‸any◯
+‸a👆m       ⇒ ‸anytime
+‸a👆g       ⇒ ‸anything
+‸a👆r       ⇒ ‸anywhere
+‸a👆w       ⇒ ‸anyhow
+‸a👆👆     ⇒ ‸anyone
+‸a👆y       ⇒ ‸anyway
 ‸a👆t      ⇒ ‸about
 ‸a👆v      ⇒ ‸above
 ‸a👆d      ⇒ ‸aboard
@@ -422,6 +449,7 @@ s👆l        ⇒ school
 
 ‸p👍        ⇒ ‸pro
 ‸p👍b       ⇒ ‸problem
+‸p👍b👆     ⇒ ‸problems
 ‸p👍m       ⇒ ‸program
 ‸p👍r       ⇒ ‸present
 ‸p👍e       ⇒ ‸people

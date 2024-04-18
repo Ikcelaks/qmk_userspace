@@ -98,8 +98,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 const uint16_t PROGMEM combo_RT_12[] = { US_MAG2, OSM(MOD_LSFT), COMBO_END};
-const uint16_t PROGMEM combo_LB_IM[] = { KC_J, KC_G, COMBO_END};
-const uint16_t PROGMEM combo_LB_MR[] = { KC_K, KC_J, COMBO_END};
+const uint16_t PROGMEM combo_LB_IM[] = { KC_X, KC_G, COMBO_END};
+const uint16_t PROGMEM combo_LB_MR[] = { KC_K, KC_X, COMBO_END};
 const uint16_t PROGMEM combo_LB_RP[] = { KC_X, KC_K, COMBO_END};
 const uint16_t PROGMEM combo_LB_IR[] = { KC_K, KC_G, COMBO_END};
 const uint16_t PROGMEM combo_RB_IM[] = { KC_H, KC_MINS, COMBO_END};

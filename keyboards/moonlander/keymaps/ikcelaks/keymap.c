@@ -98,9 +98,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 const uint16_t PROGMEM combo_RT_12[] = { US_MAG2, OSM(MOD_LSFT), COMBO_END};
-const uint16_t PROGMEM combo_LB_IM[] = { KC_X, KC_G, COMBO_END};
-const uint16_t PROGMEM combo_LB_MR[] = { KC_K, KC_X, COMBO_END};
-const uint16_t PROGMEM combo_LB_RP[] = { KC_X, KC_K, COMBO_END};
+// const uint16_t PROGMEM combo_LB_IM[] = { KC_X, KC_G, COMBO_END};
+// const uint16_t PROGMEM combo_LB_MR[] = { KC_K, KC_X, COMBO_END};
+// const uint16_t PROGMEM combo_LB_RP[] = { KC_V, KC_K, COMBO_END};
 const uint16_t PROGMEM combo_LB_IR[] = { KC_K, KC_G, COMBO_END};
 const uint16_t PROGMEM combo_RB_IM[] = { KC_H, KC_MINS, COMBO_END};
 const uint16_t PROGMEM combo_RB_MR[] = { KC_MINS, KC_QUES, COMBO_END};
@@ -109,13 +109,13 @@ const uint16_t PROGMEM combo_RB_IR[] = { KC_H, KC_QUES, COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
     COMBO(combo_RT_12, OSL(SYMB)),
-    COMBO(combo_LB_IM, KC_COLN),
-    COMBO(combo_LB_MR, US_MAG3),
-    COMBO(combo_LB_RP, US_MAG4),
+    // COMBO(combo_LB_IM, KC_COLN),
+    // COMBO(combo_LB_MR, US_MAG3),
+    // COMBO(combo_LB_RP, US_MAG4),
     COMBO(combo_LB_IR, US_QUOT_S),
     COMBO(combo_RB_IM, KC_SCLN),
-    COMBO(combo_RB_MR, US_MAG3),
-    COMBO(combo_RB_RP, US_MAG4),
+    COMBO(combo_RB_MR, KC_COLN),
+    COMBO(combo_RB_RP, US_MAG3),
     COMBO(combo_RB_IR, US_QUOT_S),
 };
 

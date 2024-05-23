@@ -60,7 +60,8 @@ sim👆👆       ⇒ simultaneous
 ‸i👍r       ⇒ ‸interest
 ‸i👍rg      ⇒ ‸interesting
 ‸i👍rd      ⇒ ‸interested
-‸i👍j       ⇒ ‸inject
+‸i👍j       ⇒ ‸inj
+‸i👍j‸       ⇒ ‸inject◯
 ‸i👍jg      ⇒ ‸injecting
 ‸i👍ji      ⇒ ‸injection
 ‸i👍jd      ⇒ ‸injected
@@ -159,6 +160,7 @@ sim👆👆       ⇒ simultaneous
 ‸nrn      ⇒ ‸therein
 ‸nrb      ⇒ ‸thereby
 ‸nrf      ⇒ ‸therefore
+‸nrr      ⇒ ‸thereafter
 ‸nro      ⇒ ‸thro
 ‸nro‸      ⇒ ‸thereof◯
 ‸nra      ⇒ ‸thra
@@ -203,9 +205,9 @@ sim👆👆       ⇒ simultaneous
 ‸t👍e       ⇒ ‸team
 ‸t👍ed      ⇒ ‸teamed
 ‸t👍eg      ⇒ ‸teaming
-‸t👍r       ⇒ ‸train
-‸t👍rd      ⇒ ‸trained
-‸t👍ri      ⇒ ‸training
+‸t👍r       ⇒ ‸turn
+‸t👍rd      ⇒ ‸turned
+‸t👍rg      ⇒ ‸turning
 ‸t👍n       ⇒ ‸techn
 ‸t👍ny      ⇒ ‸technology
 ‸t👍nl      ⇒ ‸technical
@@ -236,7 +238,7 @@ k👍dd       ⇒ knowledged
 ‸ae         ⇒ ‸of
 ‸ae👆       ⇒ ‸ae
 ‸ae👍       ⇒ ‸off
-‸ae👍r‸     ⇒ ‸offer◯
+‸ae👍r     ⇒ ‸offer
 ‸aer        ⇒ ‸aer
 ‸aes        ⇒ ‸aes
 ‸aen        ⇒ ‸often
@@ -250,12 +252,14 @@ k👍dd       ⇒ knowledged
 ‸o👍        ⇒ ‸one
 ‸o👍x       ⇒ ‸oxygen
 ‸o👍r       ⇒ ‸other
-‸o👍t       ⇒ ‸often
+‸o👍t       ⇒ ‸obtain
 ‸o👍b       ⇒ ‸object
+‸o👍b👆     ⇒ ‸objects
 ‸o👍v       ⇒ ‸observe
 ‸o👍vn      ⇒ ‸observation
 ‸o👍l       ⇒ ‸only
 ‸o👍p       ⇒ ‸opposite
+‸o👍pn      ⇒ ‸opposition
 ‸o👍g       ⇒ ‸original
 ‸o👍c       ⇒ ‸occur
 ‸o👍ci      ⇒ ‸occuring
@@ -333,7 +337,9 @@ x👍t     ⇒ justment
 ‸xv       ⇒ ‸bel
 ‸xv‸       ⇒ ‸believe◯
 ‸xv👆     ⇒ ‸believes
-‸xvi      ⇒ ‸believing
+‸xvi      ⇒ ‸beli
+‸xvi👍      ⇒ ‸believing
+‸xvd      ⇒ ‸believed
 ‸x👆      ⇒ ‸best
 ‸xf       ⇒ ‸before
 ‸xh       ⇒ ‸beh
@@ -352,7 +358,6 @@ x👍t     ⇒ justment
 ‸b👆         ⇒ ‸before
 
 ‸f👍         ⇒ ‸from
-‸f👍j        ⇒ ‸few
 ‸f👍s        ⇒ ‸first
 ‸f👍l        ⇒ ‸follow
 ‸f👍l👆      ⇒ ‸follower
@@ -369,9 +374,10 @@ x👍t     ⇒ justment
 ‸f👍a        ⇒ ‸fax
 ‸f👍o        ⇒ ‸fox
 
-f👆         ⇒ for
+f👆         ⇒ few
 
 ‸👆           ⇒ ‸n
+‸👆👆         ⇒ ‸new
 ‸👆👍         ⇒ ‸n
 ‸👆👍‸        ⇒ ‸now◯
 ‸👆👍v        ⇒ ‸never
@@ -397,6 +403,7 @@ f👆         ⇒ for
 ‸e👍d      ⇒ ‸education
 ‸e👍j       ⇒ ‸enjoy
 ‸e👍jt      ⇒ ‸enjoyment
+‸e👍l       ⇒ ‸else
 ‸e👍v       ⇒ ‸even
 ‸e👍vg      ⇒ ‸evening
 ‸e👍y       ⇒ ‸every
@@ -411,7 +418,7 @@ f👆         ⇒ for
 ‸e👍qn      ⇒ ‸equation
 ‸e👍c       ⇒ ‸exc
 ‸e👍c‸       ⇒ ‸except◯
-‸e👍c👆      ⇒ ‸exception
+‸e👍cn      ⇒ ‸exception
 ‸e👍c👍      ⇒ ‸excepting
 ‸e👍cs      ⇒ ‸excepts
 ‸e👍cd      ⇒ ‸excepted
@@ -419,6 +426,7 @@ f👆         ⇒ for
 ‸e👍ct👆    ⇒ ‸excitement
 ‸e👍cl      ⇒ ‸excl
 ‸e👍cl‸      ⇒ ‸excellent◯
+‸e👍clc      ⇒ ‸excellence
 ‸e👍cr      ⇒ ‸exercise
 ‸e👍cri     ⇒ ‸exercising
 ‸e👍p       ⇒ ‸exp
@@ -451,6 +459,7 @@ f👆         ⇒ for
 ‸👍ev      ⇒ ‸whereever
 ‸👍en      ⇒ ‸wherein
 ‸👍eb      ⇒ ‸whereby
+‸👍eas      ⇒ ‸whereas
 ‸👍a       ⇒ ‸wha
 ‸👍a‸       ⇒ ‸what◯
 ‸👍as      ⇒ ‸what's
@@ -472,6 +481,8 @@ f👆         ⇒ for
 ‸👍oe       ⇒ ‸whole
 ‸👍oey      ⇒ ‸wholly
 ‸👍l       ⇒ ‸will
+‸👍ld      ⇒ ‸willed
+‸👍li      ⇒ ‸willing
 ‸👍lb      ⇒ ‸will⎵be
 ‸👍t       ⇒ ‸with
 ‸👍td      ⇒ ‸withdraw
@@ -495,31 +506,35 @@ f👆         ⇒ for
 ‸👍rt       ⇒ ‸weren't
 ‸👍ri       ⇒ ‸wri
 ‸👍ri‸       ⇒ ‸write◯
-‸👍rin      ⇒ ‸written
+‸👍ris      ⇒ ‸writes
+‸👍rist     ⇒ ‸wrist
+‸👍rir      ⇒ ‸writer
 ‸👍rig      ⇒ ‸writing
 ‸👍ro       ⇒ ‸wro
 ‸👍ro‸       ⇒ ‸wrote◯
+‸👍rn       ⇒ ‸written
 ‸👍rd       ⇒ ‸word
 ‸👍rde      ⇒ ‸wordbreak
 ‸👍rg       ⇒ ‸wrong
+‸👍rk       ⇒ ‸work
+‸👍rkd      ⇒ ‸worked
+‸👍rki      ⇒ ‸working
 ‸👍ra       ⇒ ‸wra
 ‸👍ra‸       ⇒ ‸wrap◯
 ‸👍ru       ⇒ ‸wru
 ‸👍re       ⇒ ‸wre
 ‸👍ry       ⇒ ‸wry
+‸👍rs       ⇒ ‸worse
 ‸👍dl       ⇒ ‸well
 ‸👍do       ⇒ ‸world
 ‸👍de       ⇒ ‸went
 ‸👍dn       ⇒ ‸win
 ‸👍di       ⇒ ‸wind
-‸👍did      ⇒ ‸willed
-‸👍di👍     ⇒ ‸willing
-‸👍dk       ⇒ ‸work
-‸👍dkd      ⇒ ‸worked
-‸👍dki      ⇒ ‸working
 ‸👍da       ⇒ ‸want
 ‸👍dai      ⇒ ‸wanting
 ‸👍dad      ⇒ ‸wanted
+‸👍w        ⇒ ‸how
+‸👍v        ⇒ ‸however
 
 ‸w👍        ⇒ ‸w
 ‸w👍o       ⇒ ‸world
@@ -582,9 +597,11 @@ rev👍t       ⇒ revisit
 ‸a👍s        ⇒ ‸answer
 ‸a👍p        ⇒ ‸appear
 ‸a👍pi       ⇒ ‸appearing
+‸a👍g        ⇒ ‸although
 ‸a👍w        ⇒ ‸always
 ‸a👍y        ⇒ ‸already
 ‸a👍l        ⇒ ‸alright
+‸a👍m        ⇒ ‸almost
 ‸a👍q        ⇒ ‸acq
 
 ‸s👍         ⇒ ‸s
@@ -602,6 +619,7 @@ rev👍t       ⇒ revisit
 ‸s👍d        ⇒ ‸student
 ‸s👍c        ⇒ ‸science
 ‸s👍ci       ⇒ ‸scientist
+‸s👍cf       ⇒ ‸scientific
 ‸s👍s        ⇒ ‸success
 ‸s👍sf       ⇒ ‸successful
 ‸s👍s👍      ⇒ ‸successes
@@ -613,6 +631,8 @@ rev👍t       ⇒ revisit
 ‸s👍hr       ⇒ ‸shower
 ‸s👍hd       ⇒ ‸showed
 ‸s👍t        ⇒ ‸state
+‸s👍ti        ⇒ ‸stating
+‸s👍to        ⇒ ‸station
 ‸s👍v        ⇒ ‸solve
 ‸s👍-        ⇒ ‸she
 ‸s👍-s       ⇒ ‸she's
@@ -622,6 +642,7 @@ rev👍t       ⇒ revisit
 ‸s👍i        ⇒ ‸still
 ‸s👍o        ⇒ ‸soon
 ‸s👍r        ⇒ ‸sure
+‸s👍ra       ⇒ ‸several
 ‸s👍n        ⇒ ‸since
 
 su👍        ⇒ sub
@@ -641,7 +662,8 @@ p👍s👆     ⇒ powerschool
 ‸p👍b       ⇒ ‸problem
 ‸p👍b👆     ⇒ ‸problems
 ‸p👍m       ⇒ ‸program
-‸p👍r       ⇒ ‸present
+‸p👍r       ⇒ ‸part
+‸p👍rt      ⇒ ‸particular
 ‸p👍e       ⇒ ‸people
 ‸p👍a       ⇒ ‸play
 ‸p👍s       ⇒ ‸possible
@@ -725,6 +747,7 @@ p👍s👆     ⇒ powerschool
 ‸u👍vt       ⇒ ‸university
 ‸u👍vti      ⇒ ‸universities
 ‸u👍va       ⇒ ‸universal
+‸u👍ja       ⇒ ‸unj
 
 ‸h👍         ⇒ ‸have
 ‸h👍g        ⇒ ‸having
@@ -745,6 +768,7 @@ p👍s👆     ⇒ powerschool
 ‸h👍yr       ⇒ ‸happier
 ‸h👍yn       ⇒ ‸happiness
 ‸h👍yt       ⇒ ‸happiest
+‸h👍yl       ⇒ ‸happily
 ‸h👍l        ⇒ ‸help
 ‸h👍d        ⇒ ‸had
 ‸h👍dt       ⇒ ‸hadn't
@@ -830,6 +854,8 @@ b👆      ⇒ bs
 ba👆      ⇒ bas
 ba👆‸      ⇒ base◯
 ba👆c     ⇒ basic
+abil👆     ⇒ ability
+ibil👆     ⇒ ibility
 z👆      ⇒ zone
 n👆      ⇒ nion
 h👆      ⇒ however
@@ -840,6 +866,7 @@ e👆      ⇒ eu
 e👆👆      ⇒ eun
 
 o👆      ⇒ oa
+o👆👆     ⇒ oan
 a👆      ⇒ ao
 
 ,👆      ⇒ ,⎵but

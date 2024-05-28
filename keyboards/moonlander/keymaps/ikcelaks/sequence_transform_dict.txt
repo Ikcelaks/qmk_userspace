@@ -854,6 +854,7 @@ b👆      ⇒ bs
 ba👆      ⇒ bas
 ba👆‸      ⇒ base◯
 ba👆c     ⇒ basic
+ba👆d     ⇒ based
 abil👆     ⇒ ability
 ibil👆     ⇒ ibility
 z👆      ⇒ zone

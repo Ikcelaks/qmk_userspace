@@ -1,7 +1,32 @@
-// 👆👍★✪
-// ↻⇑
+// Sequence Transform Rule File: sequence_transform_dict_private.txt
+//  Sequence Tokens:
+//   👆
+//   👍
+//   ★
+//   ✪
+//  Transform Sequence Reference Symbols:
+//   ◯
+//   ⑴
+//   ⑵
+//   ⑶
+//   ⑷
+//   ⑸
+//   ⑹
+//   ⑺
+//  Space Symbol: ⎵
+//  Wordbreak MetaCharacter Symbol: ‸
+//  Digit MetaCharacter Symbol: ∂
+//  Alpha MetaCharacter Symbol: ∇
+//  Upper-Alpha MetaCharacter Symbol: ∆
+//  Terminating Punctuation MetaCharacter Symbol: ‼
+//  Non-terminating Punctuation MetaCharacter Symbol: ‥
+//  Punctuation MetaCharacter Symbol: •
+//  Any MetaCharacter Symbol: ∀
+//  Output Func OneShot Shift Symbol: ⇑
+//  Separator String: ⇒
 
-//👍       ⇒ ↻
+
+// Repeat rule
 ∀👍       ⇒ ∀⑴
 
 ∂👆       ⇒ ∂.

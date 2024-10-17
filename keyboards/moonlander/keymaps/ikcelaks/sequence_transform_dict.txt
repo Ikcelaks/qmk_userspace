@@ -34,8 +34,8 @@
 ∂👍       ⇒ ∂⑴
 
 ∂∂👍       ⇒ ∂∂⑴
-∂∂👍d       ⇒ 2024-06-⑶⑵
-∂∂👍f       ⇒ 202406⑶⑵
+∂∂👍d       ⇒ 2024-10-⑶⑵
+∂∂👍f       ⇒ 202410⑶⑵
 
 gh👍   ⇒ ghly
 
@@ -57,8 +57,7 @@ qee    ⇒ qe
 qoo    ⇒ qo
 qm👆    ⇒ qmk
 
-‸qua👆         ⇒ ‸quali
-‸qa👆t         ⇒ ‸quality
+‸qatar         ⇒ ‸qatar
 
 judge👆     ⇒ judgment
 
@@ -84,7 +83,7 @@ sim👆👆       ⇒ simultaneous
 ‸i👍eg      ⇒ ‸including
 ‸i👍r       ⇒ ‸interest
 ‸i👍rg      ⇒ ‸interesting
-‸i👍rd      ⇒ ‸interested
+‸i👍p       ⇒ ‸impossible
 ‸i👍j       ⇒ ‸inj
 ‸i👍j‸       ⇒ ‸inject◯
 ‸i👍jg      ⇒ ‸injecting
@@ -154,7 +153,7 @@ sim👆👆       ⇒ simultaneous
 ‸l👍t       ⇒ ‸last
 ‸l👍n       ⇒ ‸line
 ‸l👍v       ⇒ ‸leave
-‸l👍vi      ⇒ ‸leaving
+‸l👍vg      ⇒ ‸leaving
 ‸l👍q       ⇒ ‸liquid
 
 ‸m👍        ⇒ ‸more
@@ -198,6 +197,7 @@ sim👆👆       ⇒ simultaneous
 ‸ng       ⇒ ‸thing
 ‸nk       ⇒ ‸think
 ‸ny       ⇒ ‸they
+‸ndv      ⇒ ‸they've
 ‸nyr      ⇒ ‸they're
 ‸nyl      ⇒ ‸they'll
 ‸nylb     ⇒ ‸they'll⎵be
@@ -225,6 +225,7 @@ sim👆👆       ⇒ simultaneous
 ‸t👍∀       ⇒ ‸time◯
 ‸t👍i       ⇒ ‸timing
 ‸t👍s       ⇒ ‸times
+‸t👍r       ⇒ ‸timer
 ‸t👍o       ⇒ ‸timeout
 ‸t👍g       ⇒ ‸together
 ‸t👍t       ⇒ ‸tight
@@ -232,9 +233,9 @@ sim👆👆       ⇒ simultaneous
 ‸t👍e       ⇒ ‸team
 ‸t👍ed      ⇒ ‸teamed
 ‸t👍eg      ⇒ ‸teaming
-‸t👍r       ⇒ ‸turn
-‸t👍rd      ⇒ ‸turned
-‸t👍rg      ⇒ ‸turning
+‸t👍u       ⇒ ‸turn
+‸t👍ud      ⇒ ‸turned
+‸t👍ug      ⇒ ‸turning
 ‸t👍n       ⇒ ‸techn
 ‸t👍ny      ⇒ ‸technology
 ‸t👍nl      ⇒ ‸technical
@@ -242,7 +243,7 @@ sim👆👆       ⇒ simultaneous
 ‸t👍nu      ⇒ ‸technique
 ‸t👍f       ⇒ ‸transform
 ‸t👍p       ⇒ ‸temp
-‸t👍pt       ⇒ ‸temperature
+‸t👍pt      ⇒ ‸temperature
 
 ‸t👆        ⇒ ‸tell
 
@@ -311,7 +312,7 @@ mb👍       ⇒ mbl
 mb👍‸       ⇒ mble◯
 mb👍e       ⇒ mble
 mb👍d       ⇒ mbled
-mb👍i       ⇒ mbling
+mb👍g       ⇒ mbling
 mb👍y       ⇒ mbly
 mb👍a       ⇒ mblance
 mb👍👆      ⇒ mbles
@@ -394,7 +395,7 @@ x👍t     ⇒ justment
 ‸f👍l        ⇒ ‸follow
 ‸f👍l👆      ⇒ ‸follower
 ‸f👍ld       ⇒ ‸followed
-‸f👍li       ⇒ ‸following
+‸f👍lg       ⇒ ‸following
 ‸f👍r        ⇒ ‸friend
 ‸f👍d        ⇒ ‸find
 ‸f👍y        ⇒ ‸family
@@ -461,12 +462,12 @@ f👆         ⇒ few
 ‸e👍cd      ⇒ ‸excepted
 ‸e👍ct      ⇒ ‸excite
 ‸e👍ct👆    ⇒ ‸excitement
-‸e👍cti     ⇒ ‸exciting
+‸e👍ct👍     ⇒ ‸exciting
 ‸e👍cl      ⇒ ‸excl
 ‸e👍cl‸      ⇒ ‸excellent◯
 ‸e👍clc      ⇒ ‸excellence
 ‸e👍cr      ⇒ ‸exercise
-‸e👍cri     ⇒ ‸exercising
+‸e👍cr👍     ⇒ ‸exercising
 ‸e👍p       ⇒ ‸exp
 ‸e👍p‸       ⇒ ‸experience◯
 ‸e👍p👍      ⇒ ‸experiencing
@@ -521,7 +522,7 @@ f👆         ⇒ few
 ‸👍oey      ⇒ ‸wholly
 ‸👍l       ⇒ ‸will
 ‸👍ld      ⇒ ‸willed
-‸👍li      ⇒ ‸willing
+‸👍lg      ⇒ ‸willing
 ‸👍lb      ⇒ ‸will⎵be
 ‸👍t       ⇒ ‸with
 ‸👍td      ⇒ ‸withdraw
@@ -560,10 +561,11 @@ f👆         ⇒ few
 ‸👍ru       ⇒ ‸wru
 ‸👍re       ⇒ ‸wre
 ‸👍ry       ⇒ ‸wry
-‸👍rs       ⇒ ‸worse
+‸👍rs       ⇒ ‸worst
+‸👍rse      ⇒ ‸worse
 ‸👍k        ⇒ ‸work
 ‸👍kd       ⇒ ‸worked
-‸👍ki       ⇒ ‸working
+‸👍kg       ⇒ ‸working
 ‸👍dl       ⇒ ‸well
 ‸👍do       ⇒ ‸world
 ‸👍de       ⇒ ‸went
@@ -652,7 +654,7 @@ rev👍t       ⇒ revisit
 ‸s👍er        ⇒ ‸somewhere
 ‸s👍ew        ⇒ ‸somewhat
 ‸s👍en        ⇒ ‸someone
-‸s👍ey        ⇒ ‸somebody
+‸s👍eb        ⇒ ‸somebody
 ‸s👍g        ⇒ ‸something
 ‸s👍a        ⇒ ‸same
 ‸s👍y        ⇒ ‸system
@@ -671,7 +673,7 @@ rev👍t       ⇒ revisit
 ‸s👍hr       ⇒ ‸shower
 ‸s👍hd       ⇒ ‸showed
 ‸s👍t        ⇒ ‸state
-‸s👍ti        ⇒ ‸stating
+‸s👍tg        ⇒ ‸stating
 ‸s👍to        ⇒ ‸station
 ‸s👍v        ⇒ ‸solve
 ‸s👍-        ⇒ ‸she
@@ -719,6 +721,7 @@ s👆l        ⇒ school
 ‸rtb        ⇒ ‸problem
 ‸rtb👆      ⇒ ‸problems
 ‸rtg        ⇒ ‸program
+‸rtgg       ⇒ ‸programming
 ‸rtgr       ⇒ ‸programmer
 ‸rtd        ⇒ ‸product
 ‸rtde       ⇒ ‸produce
@@ -727,6 +730,7 @@ s👆l        ⇒ school
 ‸rtt        ⇒ ‸print
 ‸rtp        ⇒ ‸proper
 ‸rtpt       ⇒ ‸property
+‸rtpts      ⇒ ‸properties
 ‸rtpa       ⇒ ‸prepare
 ‸rtpai      ⇒ ‸preparing
 ‸rtn        ⇒ ‸present
@@ -757,7 +761,7 @@ s👆l        ⇒ school
 ‸d👍it      ⇒ ‸didn't
 ‸d👍iv        ⇒ ‸divide
 ‸d👍ivn       ⇒ ‸division
-‸d👍ivi       ⇒ ‸dividing
+‸d👍ivg       ⇒ ‸dividing
 ‸d👍s       ⇒ ‸does
 ‸d👍st      ⇒ ‸doesn't
 ‸d👍f       ⇒ ‸differ
@@ -782,7 +786,7 @@ s👆l        ⇒ school
 ‸u👍f        ⇒ ‸useful
 ‸u👍r        ⇒ ‸user
 ‸u👍t        ⇒ ‸update
-‸u👍ti       ⇒ ‸updating
+‸u👍tg       ⇒ ‸updating
 ‸u👍g        ⇒ ‸upgrade
 ‸u👍gi       ⇒ ‸upgrading
 ‸u👍n        ⇒ ‸under
@@ -804,7 +808,7 @@ s👆l        ⇒ school
 ‸h👍-d       ⇒ ‸he'd
 ‸h👍r        ⇒ ‸here
 ‸h👍s        ⇒ ‸house
-‸h👍si       ⇒ ‸houseing
+‸h👍sg       ⇒ ‸housing
 ‸h👍st       ⇒ ‸hasn't
 ‸h👍t        ⇒ ‸haven't
 ‸h👍p        ⇒ ‸happen

@@ -81,16 +81,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 	[MDIA] = LAYOUT_moonlander(
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, QK_BOOT,
-        _______, _______, _______, KC_MS_U, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
-        _______, _______, KC_MS_L, KC_MS_D, KC_MS_R, _______, _______, _______, _______, _______, _______, _______, _______, KC_MPLY,
+        _______, _______, _______, MS_UP, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+        _______, _______, MS_LEFT, MS_DOWN, MS_RGHT, _______, _______, _______, _______, _______, _______, _______, _______, KC_MPLY,
         _______, _______, _______, _______, _______, _______, _______, _______, KC_MPRV, KC_MNXT, _______, _______,
-        XXXXXXX, _______, _______, KC_BTN1, KC_BTN2, _______, _______, KC_VOLU, KC_VOLD, KC_MUTE, _______, XXXXXXX,
+        XXXXXXX, _______, _______, MS_BTN1, MS_BTN2, _______, _______, KC_VOLU, KC_VOLD, KC_MUTE, _______, XXXXXXX,
         _______, _______, _______, _______, _______, _______
     ),
 	[NAVI] = LAYOUT_moonlander(
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        XXXXXXX, KC_WH_L, KC_WH_R, LCTL(KC_F), LCTL(KC_R), KC_WH_U, XXXXXXX, XXXXXXX, KC_PGUP, KC_HOME, KC_UP, KC_END, KC_CAPS, XXXXXXX,
-        XXXXXXX, KC_LALT, KC_LGUI, KC_LSFT, KC_LCTL, KC_WH_D, XXXXXXX, XXXXXXX, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, LCTL(KC_DEL), XXXXXXX,
+        XXXXXXX, MS_WHLL, MS_WHLR, LCTL(KC_F), LCTL(KC_R), MS_WHLU, XXXXXXX, XXXXXXX, KC_PGUP, KC_HOME, KC_UP, KC_END, KC_CAPS, XXXXXXX,
+        XXXXXXX, KC_LALT, KC_LGUI, KC_LSFT, KC_LCTL, MS_WHLD, XXXXXXX, XXXXXXX, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, LCTL(KC_DEL), XXXXXXX,
         XXXXXXX, LCTL(KC_Z), LCTL(KC_X), LCTL(KC_C), LCTL(KC_V), LCTL(KC_A), KC_INS, KC_BSPC, XXXXXXX, KC_DEL, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
         _______, _______, _______, KC_ENT, KC_TAB, KC_SPC

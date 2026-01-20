@@ -10,8 +10,3 @@ CAPS_WORD_ENABLE = yes
 LTO_ENABLE = yes
 
 TOP_SYMBOLS=10
-
-# sequence_transform setup
-mkfile_dir := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
-include $(mkfile_dir)/sequence_transform/rules_auto_generate.mk
-# end sequence_transform setup

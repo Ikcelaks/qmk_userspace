@@ -1,9 +1,10 @@
-// Sequence Transform Rule File: sequence_transform_dict_private.txt
+// Sequence Transform Rule File: sequence_transform_dict.txt
 //  Sequence Tokens:
 //   👆
 //   👍
 //   ★
 //   ✪
+//   ✦
 //  Transform Sequence Reference Symbols:
 //   ◯
 //   ⑴
@@ -29,13 +30,19 @@
 // Repeat rule
 ∀👍       ⇒ ∀⑴
 
+✦       ⇒ $_
+✦∇       ⇒ $_.◯
+✦∂       ⇒ $_[◯
+
+✪       ⇒ 's
+
 ∂👆       ⇒ ∂.
 ∂n       ⇒ ∂n
 ∂👍       ⇒ ∂⑴
 
 ∂∂👍       ⇒ ∂∂⑴
-∂∂👍d       ⇒ 2024-10-⑶⑵
-∂∂👍f       ⇒ 202410⑶⑵
+∂∂👍d       ⇒ 2026-01-⑶⑵
+∂∂👍f       ⇒ 202601⑶⑵
 
 gh👍   ⇒ ghly
 
@@ -196,6 +203,7 @@ sim👆👆       ⇒ simultaneous
 ‸nis      ⇒ ‸theirs
 ‸ng       ⇒ ‸thing
 ‸nk       ⇒ ‸think
+‸nkg      ⇒ ‸thinking
 ‸ny       ⇒ ‸they
 ‸ndv      ⇒ ‸they've
 ‸nyr      ⇒ ‸they're

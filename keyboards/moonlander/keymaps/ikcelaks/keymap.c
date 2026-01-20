@@ -19,7 +19,6 @@
 
 
 #include QMK_KEYBOARD_H
-#include "sequence_transform/sequence_transform.h"
 
 #define KC_MAC_UNDO LGUI(KC_Z)
 #define KC_MAC_CUT LGUI(KC_X)
@@ -45,15 +44,6 @@
 #define C_RCTL_QUOT RCTL_T(KC_QUOT)
 #define C_LCTL_BSPC LCTL(KC_BSPC)
 
-enum custom_keycodes {
-    US_MAG1 = SAFE_RANGE,
-    US_MAG2,
-    US_MAG3,
-    US_MAG4,
-    US_D_UND,
-    US_QUOT_S,
-};
-
 enum layers {
     BASE,  // default layer
     SYMB,  // symbols
@@ -65,16 +55,16 @@ enum layers {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[BASE] = LAYOUT_moonlander(
         KC_DOT,         KC_1,           KC_2,           KC_3,           KC_4,           KC_5,           KC_EQL,                                         KC_ASTR,        KC_6,           KC_7,           KC_8,           KC_9,           KC_0,           KC_BSPC,
-        KC_TAB,         KC_B,           KC_M,           KC_L,           KC_C,           KC_P,           KC_DQUO,                                        KC_PIPE,        KC_J,           US_MAG1,        KC_U,           KC_O,           KC_COMM,        KC_BSLS,
+        KC_TAB,         KC_B,           KC_M,           KC_L,           KC_C,           KC_P,           KC_DQUO,                                        KC_PIPE,        KC_J,           ST_MAG1,        KC_U,           KC_O,           KC_COMM,        KC_BSLS,
         LCTL(KC_BSPC),  KC_S,           KC_T,           KC_R,           KC_D,           KC_Y,           KC_Q,                                           KC_DLR,         KC_F,           KC_N,           KC_E,           KC_A,           KC_I,           C_RCTL_QUOT,
         OSM(MOD_LSFT),  KC_V,           KC_K,           KC_X,           KC_G,           KC_W,                                                                                   KC_Z,           KC_H,           KC_MINS,        KC_QUES,        KC_DOT,         C_RSFT_ENT,
         KC_GRV,         KC_LCTL,        KC_LGUI,        KC_ESC,         TT(NAVI),                       C_LALT_ENT,                                     C_GUI_ESC,                     C_S_T(KC_SLSH),  KC_LALT,        KC_LBRC,        TT(MDIA),       TT(SYMB),
-                                                                        KC_SPC,         KC_BSPC,        KC_DEL,                                         OSL(SYMB),      OSM(MOD_LSFT),      US_MAG2
+                                                                        KC_SPC,         KC_BSPC,        KC_DEL,                                         OSL(SYMB),      OSM(MOD_LSFT),      ST_MAG2
     ),
 	[SYMB] = LAYOUT_moonlander(
         _______, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, _______, _______, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11,
         _______, KC_HASH, KC_AMPR, KC_LCBR, KC_RCBR, KC_PIPE, _______, _______, KC_INS, KC_7, KC_8, KC_9, KC_PMNS, KC_F12,
-        _______, KC_AT, KC_EXLM, KC_LPRN, KC_RPRN, KC_TILD, _______, US_D_UND, KC_PPLS, KC_4, KC_5, KC_6, KC_PAST, _______,
+        _______, KC_AT, KC_EXLM, KC_LPRN, KC_RPRN, KC_TILD, _______, ST_MAG5, KC_PPLS, KC_4, KC_5, KC_6, KC_PAST, _______,
         _______, KC_PERC, KC_CIRC, KC_LBRC, KC_RBRC, KC_GRV, KC_PSLS, KC_1, KC_2, KC_3, KC_PEQL, _______,
         _______, _______, _______, _______, _______, _______, _______, KC_0, KC_PCMM, KC_PDOT, KC_PENT, _______,
         _______, _______, _______, _______, _______, _______
@@ -97,7 +87,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     )
 };
 
-const uint16_t PROGMEM combo_RT_12[] = { US_MAG2, OSM(MOD_LSFT), COMBO_END};
+const uint16_t PROGMEM combo_RT_12[] = { ST_MAG2, OSM(MOD_LSFT), COMBO_END};
 // const uint16_t PROGMEM combo_LB_IM[] = { KC_X, KC_G, COMBO_END};
 // const uint16_t PROGMEM combo_LB_MR[] = { KC_K, KC_X, COMBO_END};
 // const uint16_t PROGMEM combo_LB_RP[] = { KC_V, KC_K, COMBO_END};
@@ -110,35 +100,14 @@ const uint16_t PROGMEM combo_RB_IR[] = { KC_H, KC_QUES, COMBO_END};
 combo_t key_combos[COMBO_COUNT] = {
     COMBO(combo_RT_12, OSL(SYMB)),
     // COMBO(combo_LB_IM, KC_COLN),
-    // COMBO(combo_LB_MR, US_MAG3),
-    // COMBO(combo_LB_RP, US_MAG4),
-    COMBO(combo_LB_IR, US_QUOT_S),
+    // COMBO(combo_LB_MR, ST_MAG3),
+    // COMBO(combo_LB_RP, ST_MAG4),
+    COMBO(combo_LB_IR, ST_MAG4),
     COMBO(combo_RB_IM, KC_SCLN),
     COMBO(combo_RB_MR, KC_COLN),
-    COMBO(combo_RB_RP, US_MAG3),
-    COMBO(combo_RB_IR, US_QUOT_S),
+    COMBO(combo_RB_RP, ST_MAG3),
+    COMBO(combo_RB_IR, ST_MAG4),
 };
-
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    if (!process_sequence_transform(keycode, record, US_MAG1))
-        return false;
-
-    if (record->event.pressed) {
-        switch (keycode) {
-            case US_D_UND:
-                SEND_STRING(SS_LSFT(SS_TAP(X_4)) SS_DELAY(100) SS_LSFT(SS_TAP(X_MINUS)));
-                return false;
-            case US_QUOT_S:
-                SEND_STRING("'s");
-                return false;
-        }
-    }
-    return true;
-}
-
-void post_process_record_user(uint16_t keycode, keyrecord_t *record) {
-    post_process_sequence_transform();  // Add this line
-}
 
 // extern rgb_config_t rgb_matrix_config;
 
@@ -146,9 +115,4 @@ void keyboard_post_init_user(void)
 {
     rgb_matrix_enable();
     debug_enable=true;
-}
-
-void matrix_scan_user(void)
-{
-    sequence_transform_task();  // Add this line
 }

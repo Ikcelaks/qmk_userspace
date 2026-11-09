@@ -96,6 +96,7 @@ const uint16_t PROGMEM combo_RB_IM[] = { KC_H, KC_MINS, COMBO_END};
 const uint16_t PROGMEM combo_RB_MR[] = { KC_MINS, KC_QUES, COMBO_END};
 const uint16_t PROGMEM combo_RB_RP[] = { KC_QUES, KC_DOT, COMBO_END};
 const uint16_t PROGMEM combo_RB_IR[] = { KC_H, KC_QUES, COMBO_END};
+const uint16_t PROGMEM combo_LM_IR[] = { KC_D, KC_T, COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
     COMBO(combo_RT_12, OSL(SYMB)),
@@ -107,6 +108,7 @@ combo_t key_combos[COMBO_COUNT] = {
     COMBO(combo_RB_MR, KC_COLN),
     COMBO(combo_RB_RP, ST_MAG3),
     COMBO(combo_RB_IR, ST_MAG4),
+    COMBO(combo_LM_IR, KC_Q),
 };
 
 // extern rgb_config_t rgb_matrix_config;
@@ -114,5 +116,5 @@ combo_t key_combos[COMBO_COUNT] = {
 void keyboard_post_init_user(void)
 {
     rgb_matrix_enable();
-    debug_enable=true;
+    // debug_enable=true;
 }

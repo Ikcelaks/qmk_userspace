@@ -64,6 +64,7 @@ qii    ⇒ qi
 qee    ⇒ qe
 qoo    ⇒ qo
 qm👆    ⇒ qmk
+‸q👆     ⇒ ‸qm
 
 ‸qatar         ⇒ ‸qatar
 
@@ -780,6 +781,7 @@ s👆l        ⇒ school
 ‸d👍r       ⇒ ‸during
 ‸d👍n       ⇒ ‸down
 ‸d👍d       ⇒ ‸decide
+‸d👍di      ⇒ ‸deciding
 ‸d👍b       ⇒ ‸describe
 ‸d👍bi      ⇒ ‸describing
 ‸d👍l       ⇒ ‸develop
